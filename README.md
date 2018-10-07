@@ -24,9 +24,9 @@ end up running the workshop without an internet connection:
 - Finding and downloading geodata (govt data, OpenStreetMap)
 - Setting up PostGIS
 - SQL Review and Added Features of PostGIS
-- Importing CSVs and geodata into PostGIS
-- Python scripts for PostGIS
-- Sample queries with map frontends: point-in-polygon, nearest point, buffers, statistics, etc 
+- Importing CSVs and geodata
+- Python scripts for import, export, querying
+- Sample queries with map frontends: point-in-polygon, nearest point, buffers, US census statistics, etc
 
 ## License
 
