@@ -3,6 +3,12 @@
 A PostGIS tutorial for PyCon Zimbabwe 2018, with Python and SQL as the main
 languages.
 
+How you can help:
+
+- read about the PyZim community: https://twitter.com/hamub/status/1038060003003916288
+- donate to the PyZim community: https://www.patreon.com/pyzim
+- donate to the Python Software Foundation: https://www.python.org/psf/
+
 ## Participatory
 
 My goal was to create a PostGIS demo which would be accessible to students
