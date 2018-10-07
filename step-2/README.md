@@ -17,7 +17,7 @@ Install Python, pip, PostgreSQL, and PostGIS extensions.
 
 Install ogr2ogr by installing GDAL.
 
-IF YOU ARE SETTIG UP DATABASE AND READ-ONLY USER FOR THE FIRST TIME:
+IF YOU ARE SETTING UP DATABASE AND READ-ONLY USER FOR THE FIRST TIME:
 
 ```
 mkdir ~/Documents/pyzimmer # data can be stored in any new directory, just be consistent
@@ -35,6 +35,8 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public
   GRANT SELECT ON TABLES TO py;
 ```
 
+### Interactive Tutorial
+
 TBD: walk-through downloading and importing districts
 
 You can test that the data got imported into PostGIS and is readable by py:zim user:
@@ -49,7 +51,7 @@ SELECT COUNT(*) FROM trains;
 
  count
 ------
-    1
+    2
 ```
 
 TBD: walk-through downloading and importing OSM features
@@ -57,3 +59,8 @@ TBD: walk-through downloading and importing OSM features
 TBD: test that OSM features are present
 
 ### Learnings
+
+- Do members of PyZim know good sources for local open data?
+- What is OpenStreetMap?
+- How can I get data to make quality websites?
+- (Ideally) how-to for installing ogr2ogr on my computer

@@ -36,8 +36,10 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public
 Import the trains table (TBD: replace with large CSV import)
 
 ```
-CREATE TABLE trains (start TEXT, finish TEXT);
-INSERT INTO trains (start, finish) VALUES ('Harare', 'Victoria Falls');
+DROP TABLE trains; # overwrite any old trains table
+CREATE TABLE trains (start TEXT, finish TEXT, seats INT, id INT, price FLOAT);
+INSERT INTO trains (start, finish, seats, id, price) VALUES ('Harare', 'Victoria Falls', 100, 1, 100);
+INSERT INTO trains (start, finish, seats, id, price) VALUES ('Harare', 'Bulawayo', 25, 2, 10);
 ```
 
 Launch the Flask server:
@@ -49,6 +51,8 @@ python3 serve.py
 
 The server will now be available on http://localhost:5000/
 When you edit serve.py, the server will restart!
+
+### Interactive Tutorial
 
 ### Learnings
 
