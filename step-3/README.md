@@ -51,14 +51,14 @@ INSERT INTO train_reviews (train_id, stars) VALUES (2, 1);
 
 ### Interactive Tutorial
 
-Connect to the database:
+Connect to the database (```psql pyzim -U py```) and review SQL concepts:
 
-```
-psql pyzim -U py
-
+```sql
 SELECT start FROM trains;
 
 SELECT * FROM trains;
+
+SELECT * FROM trains LIMIT 1;
 
 SELECT start, finish, seats FROM trains;
 
@@ -82,13 +82,35 @@ SELECT COUNT(*) ...
 
 SELECT start, COUNT(*) FROM trains GROUP BY start;
 
-SELECT start, finish, train_id, AVG(stars) FROM trains
+SELECT start, finish, AVG(stars) FROM trains
     JOIN train_reviews ON trains.id = train_reviews.train_id
-    GROUP BY train_id, start, finish;
+    GROUP BY start, finish;
+```
+
+Connect to the database (```psql pyzim -U py```) and learn new concepts with districts.
+You will need the previous steps to have succeeded for the geodata to appear here.
+
+TBD: testing out this import and queries
+TBD: really want cloud DB and Jupyter notebooks because it is hard to use ogr2ogr
+
+```sql
+SELECT * FROM points;
+SELECT ST_AsText(point) FROM points;
+SELECT ST_AsGeoJSON(point) FROM points;
+
+SELECT * FROM districts LIMIT 1;
+SELECT ST_AsGeoJSON(wkb_geometry) FROM districts LIMIT 1;
+
+# we are given a lng/lat (integer values) inside Zimbabwe
+# explain that lng/lat coordinates are decimals but this is just demo
+# explain that lng/lat order is important
+
+SELECT * FROM districts WHERE ST_Contains(wkb_geometry, ST_AsPoint(31, -18));
+
 ```
 
 ### Learnings
 
 - Given SQL experience, basic to intermediate SQL knowledge
 - Reminder of how a common SQL JOIN would work (trains and train reviews)
-- New functions and concepts (ST_AsGeoJSON, spatial JOIN) for PostGIS
+- New functions and concepts (ST_AsGeoJSON, (even spatial JOIN?)) for PostGIS
