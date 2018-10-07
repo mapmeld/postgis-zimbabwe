@@ -28,6 +28,23 @@ end up running the workshop without an internet connection:
 - Python scripts for import, export, querying
 - Sample queries with map frontends: point-in-polygon, nearest point, buffers, US census statistics, etc
 
+## Setup for public PostGIS and Jupyter Notebooks
+
+I set up on DigitalOcean so that ports and resizing would be more readily available.
+
+The documents linked here are old. The current version of PostgreSQL is '10'
+
+Installing PostgreSQL on Ubuntu:
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04
+
+Installing and configuring PostGIS on Ubuntu:
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postgis-on-ubuntu-14-04
+
+Making PostgreSQL open to the web:
+https://bosnadev.com/2015/12/15/allow-remote-connections-postgresql-database-server/
+
+DigitalOcean firewall: https://www.digitalocean.com/community/questions/opening-ports-on-my-server
+
 ## License
 
 Open source, MIT license
