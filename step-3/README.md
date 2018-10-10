@@ -87,25 +87,11 @@ SELECT start, finish, AVG(stars) FROM trains
     GROUP BY start, finish;
 ```
 
-Connect to the database (```psql pyzim -U py```) and learn new concepts with districts.
-You will need the previous steps to have succeeded for the geodata to appear here.
+We can also improve performance in large datasets by adding an index.
 
-TBD: testing out this import and queries
-TBD: really want cloud DB and Jupyter notebooks because it is hard to use ogr2ogr
+TODO: index example
 
-```sql
-SELECT * FROM points;
-SELECT ST_AsText(point) FROM points;
-SELECT ST_AsGeoJSON(point) FROM points;
-
-SELECT * FROM districts LIMIT 1;
-SELECT ST_AsGeoJSON(wkb_geometry) FROM districts LIMIT 1;
-
-# we are given a lng/lat (integer values) inside Zimbabwe
-# explain that lng/lat coordinates are decimals but this is just demo
-# explain that lng/lat order is important
-
-SELECT * FROM districts WHERE ST_Contains(wkb_geometry, ST_AsPoint(31, -18));
+```
 
 ```
 
