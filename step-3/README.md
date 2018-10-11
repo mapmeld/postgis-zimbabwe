@@ -33,6 +33,9 @@ GRANT CONNECT ON DATABASE pyzim TO py;
 GRANT USAGE ON SCHEMA public TO py;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public
   GRANT SELECT ON TABLES TO py;
+
+# activate PostGIS
+CREATE EXTENSION postgis;
 ```
 
 IF YOU ARE SETTING UP TRAIN REVIEWS FOR THE FIRST TIME
@@ -87,12 +90,11 @@ SELECT start, finish, AVG(stars) FROM trains
     GROUP BY start, finish;
 ```
 
-We can also improve performance in large datasets by adding an index.
+We can also improve performance in large datasets by adding an index. Let's say we
+are adding an index to students' names:
 
-TODO: index example
-
-```
-
+```sql
+CREATE INDEX name_index ON students (full_name);
 ```
 
 ### Learnings

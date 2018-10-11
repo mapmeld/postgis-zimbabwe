@@ -33,6 +33,9 @@ GRANT CONNECT ON DATABASE pyzim TO py;
 GRANT USAGE ON SCHEMA public TO py;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public
   GRANT SELECT ON TABLES TO py;
+
+# activate PostGIS
+CREATE EXTENSION postgis;
 ```
 
 ### Interactive Tutorial
