@@ -34,23 +34,14 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public
 CREATE EXTENSION postgis;
 ```
 
-As the db admin user, import GeoJSON and other files using ogr2ogr (part of GDAL install). Here's how we imported a GeoJSON file into a "zimbabwe_districts" table
-(and then some more).
+As the db admin user, import GeoJSON and other files using ogr2ogr (part of GDAL install). Here's how we imported a GeoJSON file into a "zimbabwe_districts" table:
 
 ```bash
 ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
-ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" health.geojson
 ```
 
 Tips for importing other formats of geodata:
 https://morphocode.com/using-ogr2ogr-convert-data-formats-geojson-postgis-esri-geodatabase-shapefiles/
-
-If you imported a CSV table with latitude and longitude columns and want to make it into a geo table, here you go:
-
-```sql
-ALTER TABLE schools ADD COLUMN point;
-UPDATE schools SET point = ST_MakePoint(longitude, latitude);
-```
 
 Then run ```psql pyzim``` and alter wkb_geometry to a GEOGRAPHY type. If you
 don't have a GEOGRAPHY type, you ought to run ```CREATE EXTENSION postgis;``` first.
@@ -58,9 +49,6 @@ don't have a GEOGRAPHY type, you ought to run ```CREATE EXTENSION postgis;``` fi
 ```sql
 ALTER TABLE zimbabwe_districts RENAME TO districts;
 ALTER TABLE districts ALTER wkb_geometry TYPE GEOGRAPHY;
-
-ALTER TABLE health ALTER wkb_geometry TYPE GEOGRAPHY;
-ALTER TABLE health RENAME wkb_geometry TO point;
 ```
 
 Importing Geo Data: OpenStreetMap
@@ -76,13 +64,41 @@ node
 out;
 ```
 
-You can also download tourism=attraction and tourism=hotel datasets:
-
-
+You can also download tourism=attraction and tourism=hotel datasets.
 
 Importing Geo Data: Other
 
-I found a database of Health Facility points from the Zimbabwe Ministry of Health (dated January 2007 :-\ )
+I found a database of Health Facility points from the Zimbabwe Ministry of Health
+(updated last month https://data.humdata.org/dataset/zimbabwe-health).
+
+There was a shapefile option, but I'd like to share how I would import this from CSV or even Excel format. We need to install CSVkit and do the upload (Pandas also can do this).
+
+```bash
+pip install csvkit psycopg2
+csvsql --db postgresql:///pyzim step-4/health.csv --insert
+```
+
+```sql
+ALTER TABLE health ADD COLUMN point GEOGRAPHY;
+UPDATE health SET point = ST_MakePoint(longitude, latitude);
+```
+
+We can use a JOIN with a spatial component here:
+
+```sql
+# how many health facilities per district?
+SELECT COUNT(*), adm1, adm2 FROM health
+  JOIN districts ON ST_Intersects(districts.wkb_geometry, health.point)
+  GROUP BY adm1, adm2
+
+# do any districts have zero health facilities?
+SELECT adm1, adm2 FROM districts
+  WHERE (SELECT COUNT(*) FROM health WHERE ST_Intersects(districts.wkb_geometry, health.point)) = 0;
+```
+
+You could use these two datasets to find the nearest health facility with electricity,
+or do a count of health facilities in each district with a dentist,
+or other comparisons.
 
 ### Interactive Tutorial
 
