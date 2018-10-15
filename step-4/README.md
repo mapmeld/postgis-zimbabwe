@@ -7,31 +7,10 @@ geospatial queries in PostGIS.
 
 ### Installing and running locally
 
-Install Python, pip, PostgreSQL, and PostGIS extensions.
+Using a SQL tool:
 
-```
+```bash
 pip install psycopg2
-```
-
-IF YOU ARE SETTING UP DATABASE AND READ-ONLY USER FOR THE FIRST TIME:
-
-```
-mkdir ~/Documents/pyzimmer # data can be stored in any new directory, just be consistent
-initdb pyzimmer/
-postgres -D pyzimmer/
-createdb pyzim
-psql pyzim
-
-# you are now in the PSQL prompt
-CREATE USER py;
-ALTER USER py WITH PASSWORD 'zim';
-GRANT CONNECT ON DATABASE pyzim TO py;
-GRANT USAGE ON SCHEMA public TO py;
-ALTER DEFAULT PRIVILEGES IN SCHEMA public
-  GRANT SELECT ON TABLES TO py;
-
-# activate PostGIS
-CREATE EXTENSION postgis;
 ```
 
 As the db admin user, import GeoJSON and other files using ogr2ogr (part of GDAL install). Here's how we imported a GeoJSON file into a "zimbabwe_districts" table:
@@ -76,6 +55,9 @@ There was a shapefile option, but I'd like to share how I would import this from
 ```bash
 pip install csvkit psycopg2
 csvsql --db postgresql:///pyzim step-4/health.csv --insert
+
+# for remote db
+csvsql --db postgresql://user:pass@hostIP/pyzim health.csv --insert
 ```
 
 ```sql

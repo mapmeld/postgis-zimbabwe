@@ -11,46 +11,13 @@ together.
 
 ### Installing and running locally
 
-Install Python, pip, PostgreSQL, and PostGIS extensions.
+Install a Python library to help connect to any PostgreSQL database.
 
-```
+```bash
 pip install psycopg2
 ```
 
-IF YOU ARE SETTING UP DATABASE AND READ-ONLY USER FOR THE FIRST TIME:
-
-```
-mkdir ~/Documents/pyzimmer # data can be stored in any new directory, just be consistent
-initdb pyzimmer/
-postgres -D pyzimmer/
-createdb pyzim
-psql pyzim
-
-# you are now in the PSQL prompt
-CREATE USER py;
-ALTER USER py WITH PASSWORD 'zim';
-GRANT CONNECT ON DATABASE pyzim TO py;
-GRANT USAGE ON SCHEMA public TO py;
-ALTER DEFAULT PRIVILEGES IN SCHEMA public
-  GRANT SELECT ON TABLES TO py;
-
-# activate PostGIS
-CREATE EXTENSION postgis;
-```
-
-IF YOU ARE SETTING UP TRAIN REVIEWS FOR THE FIRST TIME
-
-```
-psql pyzim
-
-CREATE TABLE train_reviews (train_id INT, stars INT);
-INSERT INTO train_reviews (train_id, stars) VALUES (1, 1);
-INSERT INTO train_reviews (train_id, stars) VALUES (2, 2);
-INSERT INTO train_reviews (train_id, stars) VALUES (1, 3);
-INSERT INTO train_reviews (train_id, stars) VALUES (2, 4);
-INSERT INTO train_reviews (train_id, stars) VALUES (1, 5);
-INSERT INTO train_reviews (train_id, stars) VALUES (2, 1);
-```
+TODO: SQLAlchemy? Is that a thing?
 
 ### Interactive Tutorial
 

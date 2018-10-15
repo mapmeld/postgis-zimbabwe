@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <style>
+html, body, #map {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hide;
+}
+    </style>
+  </head>
+  <body>
+    <div id="map">
+    </div>
+    <script>
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -19.3260851, lng: 29.6949536},
+    zoom: 7,
+    streetViewControl: false
+  });
+
+  var info = new google.maps.InfoWindow();
+
+  map.data.setStyle({
+    strokeColor: '#00f',
+    fillColor: '#00f',
+    opacity: 0.5,
+    fillOpacity: 0.25,
+    clickable: false
+  });
+
+  map.addListener('click', function(e) {
+    //console.log(e.latLng);
+    fetch('/about?lat=' + e.latLng.lat() + '&lng=' + e.latLng.lng())
+        .then(response => response.json())
+        .then((jso) => {
+          /// console.log(jso);
+
+          // reset previous
+          map.data.forEach((feature) => {
+            map.data.remove(feature);
+          });
+          info.close();
+
+          if (jso.adm1 === 'Foreign') {
+            alert('Foreign click')
+          } else {
+            let feature = JSON.parse(jso.geojson);
+            map.data.addGeoJson({
+              type: 'Feature',
+              geometry: feature,
+              properties: {
+                adm1: jso.adm1,
+                adm2: jso.adm2
+              }
+            });
+
+            info.setPosition(e.latLng);
+            info.setContent('<h3>' + jso.adm1 + ' / ' + jso.adm2 + '</h3><hr/>' + jso.count + ' health facilities within 20km of your click');
+            info.open(map);
+          }
+        });
+  });
+}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDruAgAuewqg9GV_cxkj9PgGS4gvCvRLDY&callback=initMap" async defer></script>
+  </body>
+</html>

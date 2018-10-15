@@ -13,30 +13,7 @@ Data will be used in the later steps.
 
 ### Installing and running locally
 
-Install Python, pip, PostgreSQL, and PostGIS extensions.
-
 Install ogr2ogr by installing GDAL.
-
-IF YOU ARE SETTING UP DATABASE AND READ-ONLY USER FOR THE FIRST TIME:
-
-```
-mkdir ~/Documents/pyzimmer # data can be stored in any new directory, just be consistent
-initdb pyzimmer/
-postgres -D pyzimmer/
-createdb pyzim
-psql pyzim
-
-# you are now in the PSQL prompt
-CREATE USER py;
-ALTER USER py WITH PASSWORD 'zim';
-GRANT CONNECT ON DATABASE pyzim TO py;
-GRANT USAGE ON SCHEMA public TO py;
-ALTER DEFAULT PRIVILEGES IN SCHEMA public
-  GRANT SELECT ON TABLES TO py;
-
-# activate PostGIS
-CREATE EXTENSION postgis;
-```
 
 ### Interactive Tutorial
 
