@@ -57,6 +57,10 @@ SELECT start, finish, AVG(stars) FROM trains
     GROUP BY start, finish;
 ```
 
+```sql
+TODO: JSONB type example
+```
+
 We can also improve performance in large datasets by adding an index. Let's say we
 are adding an index to students' names:
 

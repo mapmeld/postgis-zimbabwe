@@ -34,5 +34,3 @@ When you edit serve.py, the server will restart!
 - Concept of Connection and Cursor objects
 - Read-only user py:zim for this tutorial (see /messy and /messy2)
 - Responding in JSON format
-
-TBD: currently py:zim can create their own tables

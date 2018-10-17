@@ -29,6 +29,9 @@ GRANT USAGE ON SCHEMA public TO py;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public
   GRANT SELECT ON TABLES TO py;
 
+REVOKE CREATE ON SCHEMA public FROM PUBLIC;
+REVOKE CREATE ON SCHEMA public FROM py;
+
 # activate PostGIS
 CREATE EXTENSION postgis;
 ```
@@ -56,8 +59,10 @@ INSERT INTO train_reviews (train_id, stars) VALUES (2, 1);
 ### Importing the geodata using ogr2ogr (from GDAL)
 
 ```bash
-ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
+sudo apt-get install gdal-bin
 
+sudo -i -u postgres
+ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
 csvsql --db postgresql:///pyzim step-4/health.csv --insert
 ```
 
@@ -80,3 +85,39 @@ npm install -g http-server
 cd workshop-config && sudo http-server -p 80 &
 disown
 ```
+
+### TODOs
+
+Step One:
+- Nearest health / known hotel || camp
+- Explain server-side Flask and that py:zim cannot drop tables
+- switch to python-responder.org
+
+Step Two:
+- Re org: basic finding different types of data and importing it, will need ogr2ogr for the more advanced GeoJSON example
+TBD: walk-through downloading and importing districts
+TBD: walk-through downloading and importing OSM features
+TBD: check that OSM features are present
+
+Step Three:
+- Re org: this is any non-geo SQL example
+- SQLAlchemy
+- JSONB example
+
+Step Four:
+- Re org: this is any geo SQL example (include creating point GEOMETRY column)
+
+Step Five:
+- SQLAlchemy
+- Point in polygon APIs
+- Other queries and APIs
+
+Step Six:
+- Geocoding and buffering
+
+- JupyterHub
+- SQLAlchemy via https://docs.sqlalchemy.org/en/latest/dialects/postgresql.html#module-sqlalchemy.dialects.postgresql.psycopg2
+- Take-home Tips for installing Python, PostgreSQL, PostGIS, GDAL on systems
+- Slides (Who am I? What does GIS stand for? What is PostGIS? Why do we need specialized database (for example, surface distance using sphere radians))
+- OSM Overpass links and examples
+- Finish adding more notebooks

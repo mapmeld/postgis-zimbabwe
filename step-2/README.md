@@ -17,11 +17,7 @@ Install ogr2ogr by installing GDAL.
 
 ### Interactive Tutorial
 
-TBD: walk-through downloading and importing districts
-
 You can test that the data got imported into PostGIS and is readable by py:zim user:
-
-TBD: replace the trains example with districts:
 
 ```
 psql pyzim -U py
@@ -34,9 +30,9 @@ SELECT COUNT(*) FROM trains;
     2
 ```
 
+TBD: walk-through downloading and importing districts
 TBD: walk-through downloading and importing OSM features
-
-TBD: test that OSM features are present
+TBD: check that OSM features are present
 
 ### Learnings
 

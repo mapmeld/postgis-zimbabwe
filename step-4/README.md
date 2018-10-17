@@ -82,18 +82,12 @@ You could use these two datasets to find the nearest health facility with electr
 or do a count of health facilities in each district with a dentist,
 or other comparisons.
 
-```sql
-TODO: JSONB type example
-```
-
 ### Interactive Tutorial
 
 Connect to the database (```psql pyzim -U py```) and use SQL with new geo commands
 with districts.
 
 You will need the previous steps to have succeeded for the geodata to appear here.
-
-TBD: really want cloud DB and Jupyter notebooks because it is hard to use ogr2ogr
 
 ```sql
 
