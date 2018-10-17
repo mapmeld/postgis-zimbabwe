@@ -90,8 +90,8 @@ disown
 
 Step One:
 - Nearest health / known hotel || camp
-- Explain server-side Flask and that py:zim cannot drop tables
-- switch to python-responder.org
+- Explain server-side Flask and that py:zim cannot create or drop tables
+- switch to python-responder.org?
 
 Step Two:
 - Re org: basic finding different types of data and importing it, will need ogr2ogr for the more advanced GeoJSON example
@@ -119,5 +119,4 @@ Step Six:
 - SQLAlchemy via https://docs.sqlalchemy.org/en/latest/dialects/postgresql.html#module-sqlalchemy.dialects.postgresql.psycopg2
 - Take-home Tips for installing Python, PostgreSQL, PostGIS, GDAL on systems
 - Slides (Who am I? What does GIS stand for? What is PostGIS? Why do we need specialized database (for example, surface distance using sphere radians))
-- OSM Overpass links and examples
 - Finish adding more notebooks
