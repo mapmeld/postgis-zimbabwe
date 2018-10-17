@@ -1,0 +1,2917 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-10-11T00:10:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616967555",
+        "man_made": "water_well",
+        "name": "Gwangwava Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4173638,
+          -20.2891588
+        ]
+      },
+      "id": "node/2616967555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2798854114",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2366027,
+          -20.6701617
+        ]
+      },
+      "id": "node/2798854114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3421230780",
+        "addr:neighbourhood": "Muguta",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "name": "Muguta Secondary Booster",
+        "operator": "Muguta Secondary School",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1425226,
+          -17.8742725
+        ]
+      },
+      "id": "node/3421230780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3421840604",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1641999,
+          -17.9081519
+        ]
+      },
+      "id": "node/3421840604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3423228042",
+        "man_made": "water_well",
+        "name": "Solani Borehole",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1551606,
+          -17.8939579
+        ]
+      },
+      "id": "node/3423228042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3423243537",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "name": "Glenwood school borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1377446,
+          -17.9228189
+        ]
+      },
+      "id": "node/3423243537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3423262086",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1469806,
+          -17.9207393
+        ]
+      },
+      "id": "node/3423262086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3427700468",
+        "description": "1 bush pump, serves 100 families",
+        "drinking_water": "yes",
+        "man_made": "water_well",
+        "name": "Stop-Over Shops Borehole",
+        "operator": "L.D.S.",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1610118,
+          -17.9153992
+        ]
+      },
+      "id": "node/3427700468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3442690690",
+        "access": "public",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "name": "Chihota Borehole",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1310789,
+          -17.8792188
+        ]
+      },
+      "id": "node/3442690690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3448453420",
+        "addr:city": "Epworth",
+        "addr:housenumber": "Overspill Flea Market",
+        "addr:street": "Overspill",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "name": "Overspill Flea Market",
+        "note": "Bush Pump. Good Yield 28/3/2015",
+        "operator": "Local Board",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1559372,
+          -17.8833379
+        ]
+      },
+      "id": "node/3448453420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3448495471",
+        "addr:city": "Epworth",
+        "addr:housenumber": "Overspill",
+        "man_made": "water_well",
+        "name": "Young African College Borehole",
+        "note": "Not Working 28/3/15",
+        "operator": "Young African College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1565224,
+          -17.8837432
+        ]
+      },
+      "id": "node/3448495471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3448497222",
+        "man_made": "water_well",
+        "name": "Eternal Word Mission Bush Pump",
+        "note": "Functioning 28/3/15",
+        "operator": "Eternal Word",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1566885,
+          -17.8843972
+        ]
+      },
+      "id": "node/3448497222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3448500880",
+        "addr:city": "Epworth",
+        "man_made": "water_well",
+        "name": "Overspill Clinic Borehole",
+        "note": "Water Too Rusty/Non Potable 28/3/15",
+        "operator": "Epworth Local Board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1565916,
+          -17.8846826
+        ]
+      },
+      "id": "node/3448500880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3448545154",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "name": "Submersible Pump",
+        "note": "Working",
+        "operator": "School",
+        "pump": "powered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1503783,
+          -17.8880063
+        ]
+      },
+      "id": "node/3448545154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3456446467",
+        "man_made": "water_well",
+        "name": "Overspill Worship Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1611279,
+          -17.8865704
+        ]
+      },
+      "id": "node/3456446467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3461499952",
+        "addr:city": "Epworth",
+        "addr:district": "Domboramwari",
+        "addr:place": "Domboramwari",
+        "man_made": "water_well",
+        "name": "borehole",
+        "source:date": "20150415"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1461883,
+          -17.9096772
+        ]
+      },
+      "id": "node/3461499952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467718206",
+        "access": "public",
+        "amenity": "drinking_water",
+        "description": "Borehole",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.137434,
+          -17.8799596
+        ]
+      },
+      "id": "node/3467718206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467746637",
+        "amenity": "drinking_water",
+        "description": "Submersible pump. Serves 700 students and 20 families",
+        "drinking_water": "yes",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "pump": "powered",
+        "source": "Epworth Local Board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1421007,
+          -17.8753903
+        ]
+      },
+      "id": "node/3467746637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467813555",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "functioning": "unknown",
+        "man_made": "water_well",
+        "name": "Ward 5 Tuckshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1559079,
+          -17.9051442
+        ]
+      },
+      "id": "node/3467813555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467862723",
+        "description": "serves 2400 school children",
+        "man_made": "water_well",
+        "name": "Epworth Primary School Borehole",
+        "operator": "Epworth Primary School",
+        "pump": "powered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1269,
+          -17.8780089
+        ]
+      },
+      "id": "node/3467862723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467862724",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_well",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1262431,
+          -17.8768009
+        ]
+      },
+      "id": "node/3467862724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467862725",
+        "description": "42 metre deep borehole (according to Epworth Primary School) within building",
+        "functioning": "no",
+        "man_made": "water_well",
+        "pump": "powered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1289669,
+          -17.8786221
+        ]
+      },
+      "id": "node/3467862725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467862729",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "operator": "Epworth Mission Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1258596,
+          -17.8795523
+        ]
+      },
+      "id": "node/3467862729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467900889",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_well",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1306714,
+          -17.8827461
+        ]
+      },
+      "id": "node/3467900889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467956480",
+        "description": "unconfirmed borehole that serves church",
+        "man_made": "water_well",
+        "source": "Staff at Chizungu Primary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1636255,
+          -17.9060359
+        ]
+      },
+      "id": "node/3467956480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467956481",
+        "amenity": "drinking_water",
+        "description": "Depth of borehole approximately 8 metres",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "operator": "Chizungu Primary School",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1626443,
+          -17.9065788
+        ]
+      },
+      "id": "node/3467956481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467956482",
+        "description": "45 metre deep borehole, submersible pump",
+        "functioning": "no",
+        "man_made": "water_well",
+        "pump": "powered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1623654,
+          -17.9071107
+        ]
+      },
+      "id": "node/3467956482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467956483",
+        "description": "Depth of borehole only approximately 4 metres",
+        "functioning": "no",
+        "man_made": "water_well",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1635115,
+          -17.9074443
+        ]
+      },
+      "id": "node/3467956483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467974332",
+        "amenity": "drinking_water",
+        "description": "Bush pump, serves 100 families",
+        "drinking_water": "yes",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "name": "Glenwood Booster",
+        "pump": "manual",
+        "source": "Epworth Local Board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1417002,
+          -17.9221763
+        ]
+      },
+      "id": "node/3467974332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3467974333",
+        "amenity": "drinking_water",
+        "functioning": "yes",
+        "man_made": "water_well",
+        "name": "Glenwood Commercials",
+        "pump": "manual",
+        "source": "Epworth Local Board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1407254,
+          -17.9168291
+        ]
+      },
+      "id": "node/3467974333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3575024414",
+        "man_made": "water_well",
+        "name": "Bore hole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3839054,
+          -16.0489627
+        ]
+      },
+      "id": "node/3575024414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3589549046",
+        "man_made": "water_well",
+        "name": "Mandondo Bore Hole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4085967,
+          -16.0393316
+        ]
+      },
+      "id": "node/3589549046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3590208219",
+        "man_made": "water_well",
+        "name": "Bore hole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3887658,
+          -16.0556349
+        ]
+      },
+      "id": "node/3590208219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3590351587",
+        "man_made": "water_well",
+        "name": "Bore Hole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4138391,
+          -16.0356221
+        ]
+      },
+      "id": "node/3590351587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3612513508",
+        "man_made": "water_well",
+        "name": "Forest Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.549355,
+          -16.027903
+        ]
+      },
+      "id": "node/3612513508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3612532493",
+        "man_made": "water_well",
+        "name": "Manyaana Primary Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.548003,
+          -16.028398
+        ]
+      },
+      "id": "node/3612532493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3612979101",
+        "man_made": "water_well",
+        "name": "Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.523069,
+          -16.028604
+        ]
+      },
+      "id": "node/3612979101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3619258994",
+        "man_made": "water_well",
+        "name": "Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.54324,
+          -16.057433
+        ]
+      },
+      "id": "node/3619258994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3619306593",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.550728,
+          -16.064465
+        ]
+      },
+      "id": "node/3619306593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624630893",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.547574,
+          -16.007443
+        ]
+      },
+      "id": "node/3624630893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3626486793",
+        "man_made": "water_well",
+        "name": "Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.512255,
+          -16.031223
+        ]
+      },
+      "id": "node/3626486793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660677301",
+        "addr:city": "Epworth",
+        "addr:neighbourhood": "Overspill",
+        "addr:quarter": "Goshen",
+        "addr:ward": "6",
+        "man_made": "water_well",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1444159,
+          -17.8845305
+        ]
+      },
+      "id": "node/3660677301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701858283",
+        "addr:city": "Epworth",
+        "addr:district": "Glenwood Park",
+        "addr:housenumber": "2939",
+        "addr:place": "Glenwood Park",
+        "addr:ward": "3",
+        "building:material": "brick",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1425144,
+          -17.9212202
+        ]
+      },
+      "id": "node/3701858283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701858289",
+        "addr:city": "Epworth",
+        "addr:district": "Glenwood Park",
+        "addr:housenumber": "2941",
+        "addr:place": "Glenwood Park",
+        "addr:ward": "3",
+        "building:material": "brick",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.142891,
+          -17.9215835
+        ]
+      },
+      "id": "node/3701858289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874482",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1399197,
+          -17.9169167
+        ]
+      },
+      "id": "node/3701874482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874483",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1401332,
+          -17.9169437
+        ]
+      },
+      "id": "node/3701874483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874485",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1403173,
+          -17.9169791
+        ]
+      },
+      "id": "node/3701874485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874486",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1404093,
+          -17.9170006
+        ]
+      },
+      "id": "node/3701874486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874490",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1397307,
+          -17.9170853
+        ]
+      },
+      "id": "node/3701874490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874495",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1396994,
+          -17.917172
+        ]
+      },
+      "id": "node/3701874495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874496",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1397856,
+          -17.9171729
+        ]
+      },
+      "id": "node/3701874496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874500",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1397807,
+          -17.9172214
+        ]
+      },
+      "id": "node/3701874500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874502",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1396798,
+          -17.9172642
+        ]
+      },
+      "id": "node/3701874502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874504",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1397523,
+          -17.9173164
+        ]
+      },
+      "id": "node/3701874504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874506",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1401371,
+          -17.9173416
+        ]
+      },
+      "id": "node/3701874506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874507",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1396573,
+          -17.9173472
+        ]
+      },
+      "id": "node/3701874507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874509",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1396142,
+          -17.9174972
+        ]
+      },
+      "id": "node/3701874509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874511",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1397033,
+          -17.917541
+        ]
+      },
+      "id": "node/3701874511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874514",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1396877,
+          -17.9175792
+        ]
+      },
+      "id": "node/3701874514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874515",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.140141,
+          -17.9175913
+        ]
+      },
+      "id": "node/3701874515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874516",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1399912,
+          -17.9175941
+        ]
+      },
+      "id": "node/3701874516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874517",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1395917,
+          -17.9176211
+        ]
+      },
+      "id": "node/3701874517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874518",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1402654,
+          -17.9176323
+        ]
+      },
+      "id": "node/3701874518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874520",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1404681,
+          -17.9177618
+        ]
+      },
+      "id": "node/3701874520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701874523",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1395163,
+          -17.9178158
+        ]
+      },
+      "id": "node/3701874523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880725",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1397562,
+          -17.9178866
+        ]
+      },
+      "id": "node/3701880725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880726",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1395065,
+          -17.9179286
+        ]
+      },
+      "id": "node/3701880726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880727",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1396015,
+          -17.9179435
+        ]
+      },
+      "id": "node/3701880727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880728",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1398218,
+          -17.9180031
+        ]
+      },
+      "id": "node/3701880728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880729",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1394624,
+          -17.9180376
+        ]
+      },
+      "id": "node/3701880729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880731",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1394184,
+          -17.9181624
+        ]
+      },
+      "id": "node/3701880731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880732",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1394673,
+          -17.9182398
+        ]
+      },
+      "id": "node/3701880732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880733",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.139577,
+          -17.918577
+        ]
+      },
+      "id": "node/3701880733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701880734",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1395241,
+          -17.9186469
+        ]
+      },
+      "id": "node/3701880734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3732861520",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3617467,
+          -16.0199886
+        ]
+      },
+      "id": "node/3732861520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3732866128",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4049768,
+          -16.0314393
+        ]
+      },
+      "id": "node/3732866128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3744486655",
+        "man_made": "water_well",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1363529,
+          -17.9225058
+        ]
+      },
+      "id": "node/3744486655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3744520943",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1475369,
+          -17.9158961
+        ]
+      },
+      "id": "node/3744520943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3851430794",
+        "man_made": "water_well",
+        "name": "Alexander's Well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4863707,
+          -17.4476318
+        ]
+      },
+      "id": "node/3851430794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3872027633",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.150872,
+          -17.8884733
+        ]
+      },
+      "id": "node/3872027633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3872057496",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1567939,
+          -17.8877114
+        ]
+      },
+      "id": "node/3872057496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3893178568",
+        "man_made": "water_well",
+        "name": "Mweemba B Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4755858,
+          -15.9901922
+        ]
+      },
+      "id": "node/3893178568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3893207591",
+        "man_made": "water_well",
+        "name": "Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5530931,
+          -16.002925
+        ]
+      },
+      "id": "node/3893207591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3905157673",
+        "man_made": "water_well",
+        "name": "Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5198639,
+          -16.0263337
+        ]
+      },
+      "id": "node/3905157673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3964574477",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1645733,
+          -17.897658
+        ]
+      },
+      "id": "node/3964574477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4042446789",
+        "man_made": "water_well",
+        "name": "Hangoba Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4888606,
+          -16.0375521
+        ]
+      },
+      "id": "node/4042446789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820152",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1407655,
+          -17.9170659
+        ]
+      },
+      "id": "node/4061820152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820153",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1408064,
+          -17.9170748
+        ]
+      },
+      "id": "node/4061820153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820154",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1409117,
+          -17.9171048
+        ]
+      },
+      "id": "node/4061820154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820155",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1409855,
+          -17.9171073
+        ]
+      },
+      "id": "node/4061820155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820156",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1410854,
+          -17.9171361
+        ]
+      },
+      "id": "node/4061820156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820157",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1402495,
+          -17.9172684
+        ]
+      },
+      "id": "node/4061820157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820158",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1407501,
+          -17.9173568
+        ]
+      },
+      "id": "node/4061820158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820159",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1409251,
+          -17.917413
+        ]
+      },
+      "id": "node/4061820159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820160",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.141027,
+          -17.9174366
+        ]
+      },
+      "id": "node/4061820160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820161",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1411504,
+          -17.9175329
+        ]
+      },
+      "id": "node/4061820161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820162",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1400819,
+          -17.9176312
+        ]
+      },
+      "id": "node/4061820162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820163",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1402046,
+          -17.9177045
+        ]
+      },
+      "id": "node/4061820163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820164",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1403836,
+          -17.9177237
+        ]
+      },
+      "id": "node/4061820164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820165",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1407799,
+          -17.9177358
+        ]
+      },
+      "id": "node/4061820165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820166",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1405627,
+          -17.9177734
+        ]
+      },
+      "id": "node/4061820166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820167",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1410696,
+          -17.9178143
+        ]
+      },
+      "id": "node/4061820167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820168",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1409617,
+          -17.9178589
+        ]
+      },
+      "id": "node/4061820168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820169",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1410368,
+          -17.9178755
+        ]
+      },
+      "id": "node/4061820169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820170",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1411105,
+          -17.9178826
+        ]
+      },
+      "id": "node/4061820170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820171",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1412077,
+          -17.9179157
+        ]
+      },
+      "id": "node/4061820171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820172",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1400229,
+          -17.9179623
+        ]
+      },
+      "id": "node/4061820172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820173",
+        "description": "OW",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1400832,
+          -17.9179814
+        ]
+      },
+      "id": "node/4061820173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820174",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1403857,
+          -17.918058
+        ]
+      },
+      "id": "node/4061820174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820175",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1401409,
+          -17.9180618
+        ]
+      },
+      "id": "node/4061820175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820176",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1406431,
+          -17.9181052
+        ]
+      },
+      "id": "node/4061820176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820177",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1407565,
+          -17.9181327
+        ]
+      },
+      "id": "node/4061820177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820178",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1405479,
+          -17.9181595
+        ]
+      },
+      "id": "node/4061820178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820179",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1406291,
+          -17.9181729
+        ]
+      },
+      "id": "node/4061820179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820180",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1408939,
+          -17.9182111
+        ]
+      },
+      "id": "node/4061820180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820181",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1409845,
+          -17.9182437
+        ]
+      },
+      "id": "node/4061820181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820182",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1393111,
+          -17.918883
+        ]
+      },
+      "id": "node/4061820182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820183",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1392172,
+          -17.9189187
+        ]
+      },
+      "id": "node/4061820183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820184",
+        "description": "PW + pump",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1391911,
+          -17.9189512
+        ]
+      },
+      "id": "node/4061820184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820185",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1394948,
+          -17.9189564
+        ]
+      },
+      "id": "node/4061820185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4061820186",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1400085,
+          -17.9190744
+        ]
+      },
+      "id": "node/4061820186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244597",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1391913,
+          -17.919269
+        ]
+      },
+      "id": "node/4063244597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244600",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1391028,
+          -17.9193341
+        ]
+      },
+      "id": "node/4063244600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244601",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.140737,
+          -17.9195191
+        ]
+      },
+      "id": "node/4063244601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244602",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1411326,
+          -17.9195734
+        ]
+      },
+      "id": "node/4063244602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244614",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1405519,
+          -17.919879
+        ]
+      },
+      "id": "node/4063244614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244620",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1408912,
+          -17.9200691
+        ]
+      },
+      "id": "node/4063244620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244628",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1406478,
+          -17.920383
+        ]
+      },
+      "id": "node/4063244628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244630",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1408295,
+          -17.9204034
+        ]
+      },
+      "id": "node/4063244630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244631",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1409348,
+          -17.9205004
+        ]
+      },
+      "id": "node/4063244631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063244632",
+        "description": "PW",
+        "man_made": "water_well",
+        "source": "survey",
+        "source:date": "20150326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1409582,
+          -17.9207346
+        ]
+      },
+      "id": "node/4063244632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063408345",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1435468,
+          -17.9211231
+        ]
+      },
+      "id": "node/4063408345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4063408346",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1432357,
+          -17.9211256
+        ]
+      },
+      "id": "node/4063408346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4177089026",
+        "addr:hamlet": "Siamalonga",
+        "amenity": "drinking_water",
+        "drinking_water": "no",
+        "hh_served": "75",
+        "man_made": "water_well",
+        "name": "Dwela",
+        "natural": "spring",
+        "operator": "\"Red Cross\"",
+        "pump": "manual",
+        "pump:status": "ok",
+        "refurbished": "2015",
+        "source": "\"Red Cross Field Survey\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2935691,
+          -17.9102121
+        ]
+      },
+      "id": "node/4177089026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4177089027",
+        "addr:city": "SIAMWINDE 1",
+        "addr:hamlet": "ZUKA",
+        "addr:subdistrict": "SIACHILABA",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "hh_served": "50",
+        "man_made": "water_well",
+        "name": "SIANUNKA",
+        "pump": "manual",
+        "pump:status": "ok",
+        "refurbished": "2015",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1953"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2794175,
+          -17.9097341
+        ]
+      },
+      "id": "node/4177089027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4179578758",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "man_made": "water_well",
+        "name": "SIAKANENGE",
+        "operator": "\"Non-Red Cross Org\"",
+        "pump": "manual",
+        "pump:status": "broken",
+        "refurbished": "2006",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1996"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1039964,
+          -18.0624823
+        ]
+      },
+      "id": "node/4179578758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4179590277",
+        "addr:city": "Saba",
+        "addr:hamlet": "FULUNGA",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "drinking_water": "no",
+        "man_made": "water_well",
+        "pump": "manual",
+        "pump:status": "broken",
+        "refurbished": "1994",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1973"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1395657,
+          -18.0096628
+        ]
+      },
+      "id": "node/4179590277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4179592533",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "drinking_water": "no",
+        "hh_served": "50",
+        "man_made": "water_well",
+        "operator": "\"Non-Red Cross Org\"",
+        "pump": "manual",
+        "pump:status": "broken",
+        "refurbished": "2007",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1089757,
+          -18.0541274
+        ]
+      },
+      "id": "node/4179592533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4192464558",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "man_made": "water_well",
+        "name": "SIAKANENGE",
+        "operator": "\"Non-Red Cross Org\"",
+        "pump": "manual",
+        "pump:status": "broken",
+        "refurbished": "2006",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "1996"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1040102,
+          -18.0625161
+        ]
+      },
+      "id": "node/4192464558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4192464559",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_well",
+        "name": "Zoyebe",
+        "pump": "manual",
+        "pump:status": "ok",
+        "source": "\"Red Cross Field Survey\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0666218,
+          -18.0912782
+        ]
+      },
+      "id": "node/4192464559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4192464575",
+        "addr:city": "Chemba",
+        "addr:hamlet": "SIAMUSALE",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "drinking_water": "no",
+        "man_made": "water_well",
+        "operator": "\"Non-Red Cross Org\"",
+        "pump": "manual",
+        "pump:status": "broken",
+        "source": "\"Red Cross Field Survey\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0856621,
+          -18.0643944
+        ]
+      },
+      "id": "node/4192464575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4192465612",
+        "addr:city": "Mupambe",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "drinking_water": "no",
+        "man_made": "water_well",
+        "pump": "manual",
+        "pump:status": "broken",
+        "source": "\"Red Cross Field Survey\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0666862,
+          -18.0909723
+        ]
+      },
+      "id": "node/4192465612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4192465640",
+        "addr:city": "Saba",
+        "addr:hamlet": "MUPAMBE",
+        "addr:subdistrict": "Saba",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "hh_served": "125",
+        "man_made": "water_well",
+        "pump": "manual",
+        "pump:status": "broken",
+        "source": "\"Red Cross Field Survey\"",
+        "start_date": "2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0741963,
+          -18.0968261
+        ]
+      },
+      "id": "node/4192465640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4197393347",
+        "broken": "yes",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2554581,
+          -20.2039494
+        ]
+      },
+      "id": "node/4197393347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4233230492",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5276366,
+          -16.0232184
+        ]
+      },
+      "id": "node/4233230492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4233384089",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5707843,
+          -16.0111582
+        ]
+      },
+      "id": "node/4233384089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4245956989",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5846239,
+          -16.006261
+        ]
+      },
+      "id": "node/4245956989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4245956990",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5508741,
+          -16.0023785
+        ]
+      },
+      "id": "node/4245956990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4258278990",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5631406,
+          -16.0063547
+        ]
+      },
+      "id": "node/4258278990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4258278991",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.564588,
+          -16.0335888
+        ]
+      },
+      "id": "node/4258278991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4258281689",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5651434,
+          -16.053444
+        ]
+      },
+      "id": "node/4258281689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310529390",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4990156,
+          -16.0234607
+        ]
+      },
+      "id": "node/4310529390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4332597173",
+        "man_made": "water_well",
+        "name": "Nyakasikana Gate Borehole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4060464,
+          -16.0560286
+        ]
+      },
+      "id": "node/4332597173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4561584526",
+        "man_made": "water_well",
+        "name": "Water Well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7714509,
+          -18.6080213
+        ]
+      },
+      "id": "node/4561584526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4561618954",
+        "man_made": "water_well",
+        "name": "Natural Water Well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7701527,
+          -18.6116537
+        ]
+      },
+      "id": "node/4561618954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4745453193",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0692345,
+          -16.2400445
+        ]
+      },
+      "id": "node/4745453193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4745453659",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1234802,
+          -16.220187
+        ]
+      },
+      "id": "node/4745453659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4745453822",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1248075,
+          -16.2201082
+        ]
+      },
+      "id": "node/4745453822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4748520822",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9420915,
+          -17.8068783
+        ]
+      },
+      "id": "node/4748520822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4775014404",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5785377,
+          -19.1693064
+        ]
+      },
+      "id": "node/4775014404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831716246",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4332209,
+          -21.9697924
+        ]
+      },
+      "id": "node/4831716246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5503086714",
+        "man_made": "water_well",
+        "operator": "Hand pump"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2791683,
+          -15.9722848
+        ]
+      },
+      "id": "node/5503086714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5701124224",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0952541,
+          -17.829349
+        ]
+      },
+      "id": "node/5701124224"
+    }
+  ]
+}
