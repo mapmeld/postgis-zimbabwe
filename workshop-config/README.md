@@ -61,6 +61,15 @@ ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
 csvsql --db postgresql:///pyzim step-4/health.csv --insert
 ```
 
+### Launching the Jupyter notebooks
+
+- https://jupyter-notebook.readthedocs.io/en/stable/public_server.html
+- Enable global access from a non-root user
+- Set a password
+- disown
+
+Technically we should use JupyterHub. Maybe in the future.
+
 ### Launching the static site
 
 ```bash
@@ -68,5 +77,6 @@ wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 npm install -g http-server
 
-cd workshop-config && sudo http-server
+cd workshop-config && sudo http-server -p 80 &
+disown
 ```

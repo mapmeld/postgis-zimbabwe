@@ -3,8 +3,48 @@
   <head>
     <meta charset="utf-8"/>
     <title>PyCon Zimbabwe workshop</title>
+    <style>
+html, body {
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+code, a {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: block;
+}
+li {
+  margin-bottom: 20px;
+}
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>PostGIS @ PyCon Zimbabwe</h1>
+    <h3>How you can follow along:</h3>
+    <ul>
+      <li>
+        <span>Using Python 2 / 3?</span>
+        <code>pip install psycopg2</code>
+        <code>pip3 install psycopg2</code>
+      </li>
+      <li>
+        <span>Using SQL : PGCLI (Windows uncertain)</span>
+        <code>pip install pgcli</code>
+        <code>pgcli pyzim -h gis.georeactor.com -U py</code>
+        <span>Password = zim</span>
+      </li>
+      <li>
+        <span>Using SQL : PSQL client? (Requires large download to install)</span>
+        <code>psql pyzim -h gis.georeactor.com -U py</code>
+        <span>Password = zim</span>
+      </li>
+      <li>
+        <span>Using my browser</span>
+        <a href="http://gis.georeactor.com:8888">Jupyter Notebooks</a>
+        <span>Password = pyzim</span>
+      </li>
+    </ul>
+
+    TODO : Link to OSM query tool
   </body>
 </html>
