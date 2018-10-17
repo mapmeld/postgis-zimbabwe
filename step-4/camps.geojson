@@ -1,0 +1,3332 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-10-11T00:16:04Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/177320825",
+        "addr:city": "Nata",
+        "addr:country": "BW",
+        "cabins": "yes",
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "internet_access": "wlan",
+        "name": "Nata Camp Site",
+        "power_supply": "yes",
+        "shower": "hot",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2685805,
+          -20.2249869
+        ]
+      },
+      "id": "node/177320825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/704145198",
+        "name": "No Name Camp",
+        "note": "This is the real name!",
+        "tourism": "camp_site",
+        "website": "http://nona-lodge.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7363615,
+          -17.8236988
+        ]
+      },
+      "id": "node/704145198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/706046862",
+        "name": "Chobe Safari Lodge Camping Site",
+        "source": "NMP HOT Field Survey",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1455226,
+          -17.8083605
+        ]
+      },
+      "id": "node/706046862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/900203387",
+        "name": "Campsite - The Bushfront Lodge",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8437658,
+          -17.8805609
+        ]
+      },
+      "id": "node/900203387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/900772916",
+        "name": "The Moorings",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5433195,
+          -16.1937182
+        ]
+      },
+      "id": "node/900772916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/901089547",
+        "name": "Nanzhila Plains Safari Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9166106,
+          -16.2814379
+        ]
+      },
+      "id": "node/901089547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902588051",
+        "name": "Windmill Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.551543,
+          -19.1095993
+        ]
+      },
+      "id": "node/902588051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910385728",
+        "name": "Robins camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.988227,
+          -18.6298082
+        ]
+      },
+      "id": "node/910385728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910393714",
+        "name": "Sinamatella Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3177415,
+          -18.5852981
+        ]
+      },
+      "id": "node/910393714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910393719",
+        "capacity": "1",
+        "fee": "yes",
+        "internet_access": "no",
+        "name": "Masuma Dam Campsite (exclusive camp)",
+        "operator": "ZIM Parks",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2808686,
+          -18.7305994
+        ]
+      },
+      "id": "node/910393719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910393723",
+        "name": "Deteema Dam Camp",
+        "place": "locality",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1466724,
+          -18.6737334
+        ]
+      },
+      "id": "node/910393723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910393725",
+        "name": "Mandavu Dam Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2712475,
+          -18.6428015
+        ]
+      },
+      "id": "node/910393725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910409932",
+        "capacity": "1",
+        "name": "Shumba Camp (exclusive camp)",
+        "operator": "ZIM Parks",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3472397,
+          -18.8091714
+        ]
+      },
+      "id": "node/910409932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910432615",
+        "name": "Main Camp Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9521927,
+          -18.7323535
+        ]
+      },
+      "id": "node/910432615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910534994",
+        "name": "Community Camping Site",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.30085,
+          -20.2891147
+        ]
+      },
+      "id": "node/910534994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910790278",
+        "name": "Campsite Eagles Rest",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7277292,
+          -16.5374407
+        ]
+      },
+      "id": "node/910790278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910855603",
+        "name": "Chessa Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3847264,
+          -15.7203057
+        ]
+      },
+      "id": "node/910855603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911024735",
+        "name": "Orange Grove Motel Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1860516,
+          -17.357941
+        ]
+      },
+      "id": "node/911024735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106143",
+        "name": "Campsite #3",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4002333,
+          -18.6921402
+        ]
+      },
+      "id": "node/911106143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106158",
+        "name": "Caravanpark Ngezi Recreational Park",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3891643,
+          -18.7123214
+        ]
+      },
+      "id": "node/911106158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106163",
+        "name": "Campsite #7",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3969403,
+          -18.7121097
+        ]
+      },
+      "id": "node/911106163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106165",
+        "name": "Campsite #6",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3994386,
+          -18.7057616
+        ]
+      },
+      "id": "node/911106165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106166",
+        "name": "Campsite #5",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3985228,
+          -18.6973135
+        ]
+      },
+      "id": "node/911106166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106170",
+        "name": "Campsite #4",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3994535,
+          -18.6920619
+        ]
+      },
+      "id": "node/911106170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163630",
+        "name": "Shebakwe Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1096785,
+          -18.9750459
+        ]
+      },
+      "id": "node/911163630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163647",
+        "name": "Caravanpark",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2397361,
+          -19.0354204
+        ]
+      },
+      "id": "node/911163647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/915300447",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0037299,
+          -20.2195072
+        ]
+      },
+      "id": "node/915300447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/920272905",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7194984,
+          -19.507334
+        ]
+      },
+      "id": "node/920272905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/929136353",
+        "name": "Naletale Ruins Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5329236,
+          -19.8878473
+        ]
+      },
+      "id": "node/929136353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966623467",
+        "name": "Jambili Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8870348,
+          -18.9230157
+        ]
+      },
+      "id": "node/966623467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966747722",
+        "name": "Toghwana Dam",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.604919,
+          -20.5378078
+        ]
+      },
+      "id": "node/966747722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1243663541",
+        "name": "Safari Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.1215033,
+          -20.1527967
+        ]
+      },
+      "id": "node/1243663541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1250219025",
+        "name": "Mukuyu Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8184923,
+          -16.3026867
+        ]
+      },
+      "id": "node/1250219025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1711731779",
+        "name": "Kubu Lodge",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2273277,
+          -17.7958441
+        ]
+      },
+      "id": "node/1711731779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2117471841",
+        "name": "Limpopo Forest Tented Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2071481,
+          -22.1867097
+        ]
+      },
+      "id": "node/2117471841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278242747",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8372869,
+          -17.9182025
+        ]
+      },
+      "id": "node/2278242747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2417777420",
+        "name": "Kapula South Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2641665,
+          -18.7437695
+        ]
+      },
+      "id": "node/2417777420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2465603058",
+        "name": "The Big 5 Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2401585,
+          -17.795845
+        ]
+      },
+      "id": "node/2465603058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520739727",
+        "name": "Jesus E Born",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6003271,
+          -16.1552146
+        ]
+      },
+      "id": "node/2520739727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2835273793",
+        "capacity": "1",
+        "fee": "yes",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "Deetema Camp (exclusive camp)",
+        "operator": "ZIM Parks",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.151133,
+          -18.6801329
+        ]
+      },
+      "id": "node/2835273793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2882195666",
+        "name": "Ngweshla Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1065522,
+          -19.0255568
+        ]
+      },
+      "id": "node/2882195666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164144498",
+        "name": "Mucheni Exclusice Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2959536,
+          -15.7584948
+        ]
+      },
+      "id": "node/3164144498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164150676",
+        "name": "Trichilia Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3158275,
+          -15.7407566
+        ]
+      },
+      "id": "node/3164150676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164150761",
+        "name": "Ngube Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3916256,
+          -15.7187279
+        ]
+      },
+      "id": "node/3164150761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3258580992",
+        "addr:city": "Francistown",
+        "addr:country": "BW",
+        "dog": "no",
+        "drinking_water": "yes",
+        "internet_access": "wlan",
+        "name": "Tati River Lodge",
+        "power_supply": "yes",
+        "shower": "hot",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5337998,
+          -21.2020652
+        ]
+      },
+      "id": "node/3258580992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3258687454",
+        "addr:city": "Karoi",
+        "addr:country": "ZW",
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "name": "Twin River Inn",
+        "power_supply": "yes",
+        "shower": "cold",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6744371,
+          -16.8096249
+        ]
+      },
+      "id": "node/3258687454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3261915928",
+        "camp_type": "informal",
+        "description": "Bushcamp next to lake and water treatment plant.",
+        "impromptu": "yes",
+        "name": "Bush camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3415585,
+          -18.7084022
+        ]
+      },
+      "id": "node/3261915928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3261922495",
+        "camp_type": "informal",
+        "description": "Bushcamp near little village and dry river. USD 5 paid to villlage chief.",
+        "impromptu": "yes",
+        "name": "Bush camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2436279,
+          -17.3845177
+        ]
+      },
+      "id": "node/3261922495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3268719308",
+        "addr:city": "Wadi Halfa",
+        "name": "Jolly Boys Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8614786,
+          -17.8550268
+        ]
+      },
+      "id": "node/3268719308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3321031355",
+        "name": "Woodland's Stop Over",
+        "stars": "3",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4638193,
+          -21.0815494
+        ]
+      },
+      "id": "node/3321031355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3321041060",
+        "name": "Dumela Lodge Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5123832,
+          -21.1324355
+        ]
+      },
+      "id": "node/3321041060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3324797214",
+        "name": "Gosho Park Bushcamp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6281358,
+          -18.176522
+        ]
+      },
+      "id": "node/3324797214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3326778302",
+        "name": "The Platform",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8399233,
+          -17.7118173
+        ]
+      },
+      "id": "node/3326778302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3328135558",
+        "name": "Mucheni Gorge",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8759185,
+          -17.6535147
+        ]
+      },
+      "id": "node/3328135558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3328138290",
+        "name": "Mucheni view",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8767112,
+          -17.6460895
+        ]
+      },
+      "id": "node/3328138290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3359885665",
+        "created_by": "overlander",
+        "name": "David Shepherd campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.00655,
+          -15.7770167
+        ]
+      },
+      "id": "node/3359885665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3359885668",
+        "created_by": "overlander",
+        "name": "Kyle Nature reserve",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9553667,
+          -20.2383333
+        ]
+      },
+      "id": "node/3359885668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3379260456",
+        "name": "Gwabi Lodge",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8606835,
+          -15.9515083
+        ]
+      },
+      "id": "node/3379260456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3470021152",
+        "name": "North Camp",
+        "operator": "PWMA",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1797523,
+          -21.9005856
+        ]
+      },
+      "id": "node/3470021152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3471480403",
+        "name": "South Camp",
+        "operator": "PWMA",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2145568,
+          -21.9637471
+        ]
+      },
+      "id": "node/3471480403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3575346197",
+        "name": "Tundazi Base Camp",
+        "operator": "PWMA",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0714162,
+          -17.5679348
+        ]
+      },
+      "id": "node/3575346197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3587835936",
+        "name": "Kaswiswi River Camping Site",
+        "operator": "PWMA",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9001245,
+          -17.6960164
+        ]
+      },
+      "id": "node/3587835936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3614801361",
+        "addr:city": "Bulawayo",
+        "addr:country": "ZW",
+        "bar": "yes",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "credit_card:uplift": "4",
+        "description": "Sandy place with a few trees next to lodge. View over waterhole. A large group of elephants daily comes drinking, bathing and taking salt in from a sandhole that is a few meters from a hide at the campground.",
+        "dish_washing": "yes",
+        "dryer": "no",
+        "fee": "USD 30 (2 adults, camper)",
+        "fenced": "no",
+        "guarded": "nighttime",
+        "internet_access": "wifi",
+        "internet_access:fee": "yes",
+        "kitchen": "yes",
+        "laundry": "no",
+        "name": "Tuskers Camp",
+        "operator": "Ivory Lodge",
+        "payment:credit_card": "yes",
+        "power_supply": "yes",
+        "power_supply:voltage": "220",
+        "restaurant": "yes",
+        "shop": "yes",
+        "shower": "warm",
+        "source": "Survey",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0582064,
+          -18.6172305
+        ]
+      },
+      "id": "node/3614801361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698231082",
+        "addr:country": "MZ",
+        "bar": "yes",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Community run campground and cottages in Moribane Forest Reserve. Sites on sand in forest. Buckets with hot water are provided on request.Guided tours into the forest are offered.",
+        "dish_washing": "no",
+        "dryer": "no",
+        "fee": "MZN 400 (2 adults, camper, low season)",
+        "fenced": "no",
+        "guarded": "nighttime",
+        "internet": "no",
+        "kitchen": "yes",
+        "laundry": "no",
+        "name": "Moribane Forest Reserve - Ndzou Camp",
+        "payment:credit_card": "no",
+        "power_supply": "no",
+        "restaurant": "yes",
+        "shop": "no",
+        "shower": "cold",
+        "source": "Survey",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.338261,
+          -19.733158
+        ]
+      },
+      "id": "node/3698231082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698244502",
+        "bar": "no",
+        "big_rigs": "no",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Reasonably well maintained grassy site with great view",
+        "dish_washing": "no",
+        "dryer": "no",
+        "fenced": "non_protecting",
+        "general_room": "no",
+        "guarded": "no",
+        "internet": "no",
+        "kitchen": "no",
+        "laundry": "no",
+        "name": "Botanic Garden Campsite & Caravan Park",
+        "payment:credit_card": "no",
+        "power_supply": "no",
+        "restaurant": "no",
+        "sanitary_dumpstation": "no",
+        "shop": "no",
+        "shower": "hot",
+        "source": "Survey",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.783289,
+          -19.1137862
+        ]
+      },
+      "id": "node/3698244502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698245515",
+        "addr:country": "MZ",
+        "bar": "yes",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Grassy campground, mostly under trees with lakeview. Ablutions OK. Also cottages are provided. Showers are heated up in the morning.",
+        "dish_washing": "yes",
+        "dryer": "no",
+        "fee": "MZN 600 (2 adults, camper, low season)",
+        "fenced": "no",
+        "guarded": "nighttime",
+        "internet": "no",
+        "kitchen": "no",
+        "laundry": "no",
+        "name": "Casa Msika",
+        "payment:credit_card": "yes",
+        "power_supply": "yes",
+        "power_supply:voltage": "220",
+        "restaurant": "yes",
+        "shop": "no",
+        "shower": "hot",
+        "source": "Survey",
+        "swimming_pool": "yes",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "non_potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.06852,
+          -19.038806
+        ]
+      },
+      "id": "node/3698245515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698245715",
+        "addr:country": "ZW",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Small grassy terrain. Well maintained. Wood fire for hot water. No mountain view.",
+        "dish_washing": "yes",
+        "dryer": "no",
+        "fee": "USD 16 (2 adults, camper)",
+        "fenced": "no",
+        "guarded": "no",
+        "internet": "no",
+        "kitchen": "no",
+        "laundry": "yes",
+        "name": "Ndundu Backpackers & Campsite",
+        "payment:credit_card": "no",
+        "power_supply": "yes",
+        "power_supply:voltage": "220",
+        "restaurant": "no",
+        "sanitary_dumpstation": "no",
+        "shop": "no",
+        "shower": "hot",
+        "source": "Survey",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "non_potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.776116,
+          -19.118108
+        ]
+      },
+      "id": "node/3698245715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698245724",
+        "addr:country": "ZW",
+        "bar": "yes",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Beautiful, park-like environment. Belonging to La Rochelle guesthouse and botanic garden. Ablutions poorly maintained.",
+        "dish_washing": "yes",
+        "dryer": "no",
+        "email": "reservations@larochellecentre.com",
+        "fee": "USD 20 (2 adults, camper)",
+        "fenced": "no",
+        "guarded": "nighttime",
+        "internet": "wifi",
+        "kitchen": "no",
+        "laundry": "yes",
+        "name": "Penhalonga - La Rochelle Country House",
+        "payment:credit_card": "no",
+        "power_supply": "yes",
+        "power_supply:voltage": "220",
+        "restaurant": "yes",
+        "sanitary_dumpstation": "no",
+        "shop": "no",
+        "shower": "hot",
+        "source": "Survey",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.690896,
+          -18.905193
+        ]
+      },
+      "id": "node/3698245724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3703155195",
+        "addr:country": "ZW",
+        "bar": "no",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Small grassy terrain on short walking distance from Muzarazi Falls. Reception at Far & Wide Lodge. Park fee must be paid to access campground.",
+        "dish_washing": "yes",
+        "dryer": "no",
+        "fenced": "no",
+        "guarded": "nighttime",
+        "internet": "no",
+        "kitchen": "no",
+        "laundry": "yes",
+        "name": "Muzarazi Campsite",
+        "power_supply": "no",
+        "restaurant": "no",
+        "shop": "no",
+        "source": "Survey",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.793183,
+          -18.47919
+        ]
+      },
+      "id": "node/3703155195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3703155197",
+        "addr:country": "ZW",
+        "bar": "no",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Very large grassy field with trees and lots of braais.",
+        "dish_washing": "yes",
+        "dryer": "no",
+        "fee": "USD 10 per person",
+        "fenced": "no",
+        "guarded": "nighttime",
+        "internet": "no",
+        "kitchen": "no",
+        "laundry": "yes",
+        "name": "Mare Caravan Park",
+        "payment:credit_card": "no",
+        "power_supply": "yes",
+        "restaurant": "no",
+        "shop": "no",
+        "shower": "hot",
+        "source": "Survey",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "at_sites",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.722036,
+          -18.287666
+        ]
+      },
+      "id": "node/3703155197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3703155200",
+        "big_rigs": "yes",
+        "caravans": "yes",
+        "description": "Well maintained lodge and restaurant that offers camping facilities. Campers stay at the lawn behind the lodge. Public toilets, shower in one of the rooms. Many peacocks around.",
+        "fee": "USD 10 (2 adults, camper)",
+        "internet": "wifi",
+        "kitchen": "no",
+        "name": "Denise's Kitchen",
+        "pets": "no",
+        "power_supply": "yes",
+        "power_supply:voltage": "220",
+        "restaurant": "yes",
+        "shower": "hot",
+        "source": "Survey",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "water:location": "central",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.775266,
+          -19.076318
+        ]
+      },
+      "id": "node/3703155200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3720394025",
+        "access": "private",
+        "name": "Pioneer Camp",
+        "tourism": "camp_site",
+        "website": "www.pioneerscamp.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6985288,
+          -17.8361982
+        ]
+      },
+      "id": "node/3720394025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3720394099",
+        "name": "Sansimba Fishing Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6142708,
+          -17.8436709
+        ]
+      },
+      "id": "node/3720394099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3721685077",
+        "addr:city": "Victoria Falls",
+        "addr:country": "ZW",
+        "bar": "yes",
+        "camp_type": "established",
+        "description": "Small area behind cottages for campers, separate lawn for tents under trees. On walking distance of village and falls",
+        "dish_washing": "no",
+        "dryer": "no",
+        "fee": "USD 16 (2 adults, camper)",
+        "fenced": "protecting",
+        "guarded": "nighttime",
+        "internet_access": "wifi",
+        "internet_access:fee": "yes",
+        "kitchen": "no",
+        "laundry": "yes",
+        "name": "Shoestring Backpackers",
+        "payment:credit_card": "no",
+        "power_supply": "yes",
+        "power_supply:voltage": "220",
+        "restaurant": "yes",
+        "shop": "no",
+        "shower": "hot",
+        "source": "Survey",
+        "swimming_pool": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "water:location": "central",
+        "water:quality": "potable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.835195,
+          -17.9260988
+        ]
+      },
+      "id": "node/3721685077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3948488245",
+        "name": "Kandahar Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7803548,
+          -17.8639938
+        ]
+      },
+      "id": "node/3948488245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3948675502",
+        "name": "Chundu 1",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6936833,
+          -17.8144034
+        ]
+      },
+      "id": "node/3948675502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3948675503",
+        "name": "Chundu 2",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6960946,
+          -17.8221172
+        ]
+      },
+      "id": "node/3948675503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4128122389",
+        "internet_access": "wlan",
+        "name": "Small World Backpackers Lodge, Avondale",
+        "tourism": "camp_site",
+        "website": "http://smallworldlodge.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0297069,
+          -17.8029611
+        ]
+      },
+      "id": "node/4128122389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4162097789",
+        "name": "Senyati Safari Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2350504,
+          -17.8716282
+        ]
+      },
+      "id": "node/4162097789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172945790",
+        "name": "Mopani Camping & Caravan Park",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8262654,
+          -16.5313336
+        ]
+      },
+      "id": "node/4172945790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4201708193",
+        "name": "Mvuu Lodge & Camping",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2190172,
+          -15.7654223
+        ]
+      },
+      "id": "node/4201708193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4201713090",
+        "name": "Zambezi Breezers",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.880659,
+          -15.9853489
+        ]
+      },
+      "id": "node/4201713090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4273018389",
+        "name": "the retreat (called for his purpose)",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5832836,
+          -16.5000404
+        ]
+      },
+      "id": "node/4273018389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278578293",
+        "name": "Makgadikgadi Adventure Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7382686,
+          -20.7627698
+        ]
+      },
+      "id": "node/4278578293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357227138",
+        "name": "Mazhou Camping site",
+        "operator": "Sanparks",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2012847,
+          -22.187385
+        ]
+      },
+      "id": "node/4357227138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4400713589",
+        "name": "Warthogs Bush Camp",
+        "name:en": "Warthogs Bush Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8304516,
+          -16.5290415
+        ]
+      },
+      "id": "node/4400713589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449420193",
+        "name": "Worlds View Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4265356,
+          -20.5022658
+        ]
+      },
+      "id": "node/4449420193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4503657289",
+        "email": "alida@yoafrica.com",
+        "phone": "+263778553356",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3817122,
+          -16.3697807
+        ]
+      },
+      "id": "node/4503657289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4524335494",
+        "addr:housenumber": "277",
+        "name": "Chiwoza  Home",
+        "name:en": "Chiwoza Home",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8634003,
+          -17.8622376
+        ]
+      },
+      "id": "node/4524335494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530400592",
+        "addr:street": "Binya Road",
+        "name": "Chiwoza Homestead - Nyanga",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7249845,
+          -18.0854615
+        ]
+      },
+      "id": "node/4530400592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530400595",
+        "addr:housenumber": "5535",
+        "addr:street": "Fusire Road",
+        "name": "LP Maira",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0786362,
+          -18.0209706
+        ]
+      },
+      "id": "node/4530400595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530408192",
+        "name": "Sunshine Motor Boating",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7989254,
+          -17.8692633
+        ]
+      },
+      "id": "node/4530408192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530412689",
+        "name": "Mazimauya",
+        "name:en": "Mazimauya",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6495068,
+          -18.6138556
+        ]
+      },
+      "id": "node/4530412689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530415289",
+        "name": "Mbuya Dhlandhlara Homestead",
+        "name:en": "Mbuya Dhlandhlara Homestead",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9435554,
+          -17.8594391
+        ]
+      },
+      "id": "node/4530415289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530578890",
+        "addr:street": "Access Road to Lake Macilwane Recreational Park (South Bank Game Park)",
+        "name": "Mazowe Sailing Club",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7809272,
+          -17.8802979
+        ]
+      },
+      "id": "node/4530578890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530587489",
+        "name": "Hunyani Hills",
+        "name:en": "Hunyani Hills",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7890377,
+          -17.87631
+        ]
+      },
+      "id": "node/4530587489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4540682090",
+        "addr:housenumber": "24",
+        "addr:street": "Lingmell Close",
+        "name": "Donnie's Wife",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1206275,
+          -17.722657
+        ]
+      },
+      "id": "node/4540682090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4540682889",
+        "name": "Maira Gerald Residence",
+        "name:en": "Maira Gerald Residence",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2396334,
+          -17.8395158
+        ]
+      },
+      "id": "node/4540682889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4688186890",
+        "addr:street": "Starliner Road",
+        "name": "Merriam Mayira",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0110528,
+          -17.8417164
+        ]
+      },
+      "id": "node/4688186890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4698585110",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.149089,
+          -18.233139
+        ]
+      },
+      "id": "node/4698585110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4715187392",
+        "addr:street": "4th Avenue",
+        "name": "Godfrey Chinhoyi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9801273,
+          -17.8325475
+        ]
+      },
+      "id": "node/4715187392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4773008721",
+        "name": "Candice Baudi",
+        "name:en": "Candice Baudi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1114639,
+          -18.0188371
+        ]
+      },
+      "id": "node/4773008721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4782253324",
+        "name": "Mercy Homestead",
+        "name:en": "Mercy Homestead",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1923545,
+          -17.5920978
+        ]
+      },
+      "id": "node/4782253324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4782267721",
+        "name": "Gogo Magama",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8909811,
+          -17.8466298
+        ]
+      },
+      "id": "node/4782267721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4788708521",
+        "name": "Sinompasi, Chizarira National Park",
+        "name:en": "Sinompasi, Chizarira National Park",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7752367,
+          -17.8337792
+        ]
+      },
+      "id": "node/4788708521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829720022",
+        "addr:street": "52nd Avenue",
+        "name": "Martha Majome",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9906954,
+          -17.8034914
+        ]
+      },
+      "id": "node/4829720022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4850523242",
+        "caravans": "yes",
+        "email": "info@wildtracks-zambia.com",
+        "name": "Wildtracks Campsite",
+        "phone": "+260 97 1017726",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "www.wildtracks-zambia.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0036015,
+          -15.9419169
+        ]
+      },
+      "id": "node/4850523242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4858064021",
+        "name": "Bloodshow Muregi",
+        "name:en": "Bloodshow Muregi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0035642,
+          -17.8364003
+        ]
+      },
+      "id": "node/4858064021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4874279249",
+        "name": "Panda Restcamp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6294378,
+          -18.5360826
+        ]
+      },
+      "id": "node/4874279249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4874300864",
+        "addr:city": "Bulawayo",
+        "addr:housenumber": "3",
+        "addr:street": "Laidlaw close",
+        "name": "Granite Park Lodge",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.590265,
+          -20.2160774
+        ]
+      },
+      "id": "node/4874300864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4876490527",
+        "name": "Peter House Cave",
+        "name:en": "Peter House Cave",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0315854,
+          -19.7963039
+        ]
+      },
+      "id": "node/4876490527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4883822421",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1980419,
+          -16.8855383
+        ]
+      },
+      "id": "node/4883822421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4883822521",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.198019,
+          -16.885585
+        ]
+      },
+      "id": "node/4883822521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4893104022",
+        "name": "Pray Gozo",
+        "name:en": "Pray Gozo",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0619478,
+          -17.8612749
+        ]
+      },
+      "id": "node/4893104022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4893104023",
+        "name": "Mbuya Connor",
+        "name:en": "Mbuya Connor",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9382778,
+          -17.840803
+        ]
+      },
+      "id": "node/4893104023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4938857321",
+        "name": "Archie Beitbridge",
+        "name:en": "Archie Beitbridge",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9913861,
+          -22.1895985
+        ]
+      },
+      "id": "node/4938857321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4970999534",
+        "name": "Hippo Bay Campsite and Bushcamp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8842148,
+          -15.8754657
+        ]
+      },
+      "id": "node/4970999534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5001230855",
+        "name": "Kiambi Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9266561,
+          -15.9377101
+        ]
+      },
+      "id": "node/5001230855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5001477721",
+        "name": "The Ranch",
+        "name:en": "The Ranch",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8623244,
+          -17.8187974
+        ]
+      },
+      "id": "node/5001477721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5092289229",
+        "name": "Bananyana Backpackers and Camp",
+        "name:en": "Bananyana Backpackers and Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2108432,
+          -17.810327
+        ]
+      },
+      "id": "node/5092289229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5115230623",
+        "name": "Mlibizi Zambezi resort",
+        "name:en": "Mlibizi Zambezi resort",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0724628,
+          -17.9436013
+        ]
+      },
+      "id": "node/5115230623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5119587725",
+        "name": "Lodge gweru",
+        "name:en": "Lodge gweru",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8274267,
+          -19.467425
+        ]
+      },
+      "id": "node/5119587725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5163211725",
+        "name": "Kasvisvi Camp 2",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9040138,
+          -17.6957228
+        ]
+      },
+      "id": "node/5163211725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5182986921",
+        "name": "Masango Habor",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9989608,
+          -16.6117974
+        ]
+      },
+      "id": "node/5182986921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259183622",
+        "addr:housenumber": "19955",
+        "name": "Angeline Gwada",
+        "name:en": "Angeline Gwada",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6301191,
+          -17.9058212
+        ]
+      },
+      "id": "node/5259183622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259183721",
+        "name": "Mai Trust Mutindori",
+        "name:en": "Mai Trust Mutindori",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1121439,
+          -17.6834901
+        ]
+      },
+      "id": "node/5259183721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259284127",
+        "addr:city": "Kasane",
+        "addr:country": "BW",
+        "big_rigs": "yes",
+        "camp_type": "established",
+        "caravans": "yes",
+        "description": "Large sandy places with trees close to the Zambesi.",
+        "email": "kubu@botsnet.bw",
+        "fee": "BWP 174 (2 adults, camper)",
+        "fenced": "non_protecting",
+        "fireplace": "braai",
+        "guarded": "nighttime",
+        "internet": "wifi",
+        "kitchen": "no",
+        "name": "Campsite Kubu Lodge",
+        "operator": "Kubu Lodge",
+        "phone": "+267 6250312",
+        "picnic_benches": "yes",
+        "power_supply": "yes",
+        "power_supply:voltage": "220",
+        "sanitary_dumpstation": "no",
+        "shower": "hot",
+        "source": "Survey",
+        "swimming_pool": "yes",
+        "tents": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "sitting",
+        "tourism": "camp_site",
+        "water:location": "at_sites",
+        "water:quality": "non_potable",
+        "website": "www.kubulodge.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2300726,
+          -17.7947537
+        ]
+      },
+      "id": "node/5259284127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5285671021",
+        "addr:housenumber": "5188",
+        "name": "Mai Peshie",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9122658,
+          -17.8210192
+        ]
+      },
+      "id": "node/5285671021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5285671121",
+        "name": "Madamba",
+        "name:en": "Madamba",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8702839,
+          -17.8294136
+        ]
+      },
+      "id": "node/5285671121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5288058727",
+        "name": "Wajetsi Farm",
+        "name:en": "Wajetsi Farm",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8387183,
+          -16.8794826
+        ]
+      },
+      "id": "node/5288058727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5288066522",
+        "name": "Tobacco Field Wajetsi",
+        "name:en": "Tobacco Field Wajetsi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8317403,
+          -16.8799468
+        ]
+      },
+      "id": "node/5288066522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5292054623",
+        "name": "Courage Madamba",
+        "name:en": "Courage Madamba",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9421337,
+          -17.8284068
+        ]
+      },
+      "id": "node/5292054623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5292054922",
+        "name": "Courage Madamba",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9422135,
+          -17.8284685
+        ]
+      },
+      "id": "node/5292054922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5294977405",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1992975,
+          -20.914815
+        ]
+      },
+      "id": "node/5294977405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5301647945",
+        "name": "Kubu Island",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8237961,
+          -20.8915084
+        ]
+      },
+      "id": "node/5301647945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306076423",
+        "name": "Big Cabe Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4415253,
+          -20.504545
+        ]
+      },
+      "id": "node/5306076423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306100434",
+        "name": "Campite Mwizilume Dam",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4648802,
+          -20.5224313
+        ]
+      },
+      "id": "node/5306100434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306100435",
+        "name": "Maleme Dam Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5018867,
+          -20.5428276
+        ]
+      },
+      "id": "node/5306100435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124306",
+        "name": "Mtsheleli Dam #12",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6044323,
+          -20.5871138
+        ]
+      },
+      "id": "node/5306124306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124307",
+        "name": "Mtsheleli Dam #11",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6044517,
+          -20.5876524
+        ]
+      },
+      "id": "node/5306124307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124308",
+        "name": "Mtsheleli Dam #13",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6050718,
+          -20.586855
+        ]
+      },
+      "id": "node/5306124308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124309",
+        "name": "Mtsheleli Dam #14",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.605481,
+          -20.5872225
+        ]
+      },
+      "id": "node/5306124309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124310",
+        "name": "Mtsheleli Dam #15",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6064412,
+          -20.588206
+        ]
+      },
+      "id": "node/5306124310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124311",
+        "name": "Mtsheleli Dam #10",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6027382,
+          -20.5867934
+        ]
+      },
+      "id": "node/5306124311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124312",
+        "name": "Mtsheleli Dam #9",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6022643,
+          -20.5869198
+        ]
+      },
+      "id": "node/5306124312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124313",
+        "name": "Mtsheleli Dam #8",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6016485,
+          -20.5858858
+        ]
+      },
+      "id": "node/5306124313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124314",
+        "name": "Mtsheleli Dam #7",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6013352,
+          -20.5842558
+        ]
+      },
+      "id": "node/5306124314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124315",
+        "name": "Mtsheleli Dam #6",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6012443,
+          -20.5836986
+        ]
+      },
+      "id": "node/5306124315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124316",
+        "name": "Mtsheleli Dam #5",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6010624,
+          -20.5833737
+        ]
+      },
+      "id": "node/5306124316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124317",
+        "name": "Mtsheleli Dam #4",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6008765,
+          -20.5830487
+        ]
+      },
+      "id": "node/5306124317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124318",
+        "name": "Mtsheleli Dam #3",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6005689,
+          -20.5826457
+        ]
+      },
+      "id": "node/5306124318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124319",
+        "name": "Mtsheleli Dam #2",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.60023,
+          -20.5822472
+        ]
+      },
+      "id": "node/5306124319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306124320",
+        "name": "Mtsheleli Dam #1",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5998374,
+          -20.5818062
+        ]
+      },
+      "id": "node/5306124320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306125321",
+        "name": "Toghwana Dam #3",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6057057,
+          -20.5394683
+        ]
+      },
+      "id": "node/5306125321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306125322",
+        "name": "Toghwana Dam #4",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.605483,
+          -20.5390849
+        ]
+      },
+      "id": "node/5306125322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306125323",
+        "name": "Toghwana Dam #5",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6050688,
+          -20.5387755
+        ]
+      },
+      "id": "node/5306125323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306125324",
+        "name": "Toghwana Dam #6",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6051325,
+          -20.5379483
+        ]
+      },
+      "id": "node/5306125324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306125325",
+        "name": "Toghwana Dam #7",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6049561,
+          -20.5376975
+        ]
+      },
+      "id": "node/5306125325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306125326",
+        "name": "Toghwana Dam #2",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6074537,
+          -20.5402318
+        ]
+      },
+      "id": "node/5306125326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306125327",
+        "name": "Toghwana Dam #1",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6083994,
+          -20.541205
+        ]
+      },
+      "id": "node/5306125327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306149716",
+        "name": "Modumela Lodge Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6655699,
+          -20.6838371
+        ]
+      },
+      "id": "node/5306149716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5311893922",
+        "name": "Gogo Simon",
+        "name:en": "Gogo Simon",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9370815,
+          -17.8368079
+        ]
+      },
+      "id": "node/5311893922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313229221",
+        "name": "Gogo Simone",
+        "name:en": "Gogo Simone",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9368686,
+          -17.8369187
+        ]
+      },
+      "id": "node/5313229221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417743959",
+        "name": "Campsite Chitake Spings",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4877112,
+          -16.1023406
+        ]
+      },
+      "id": "node/5417743959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5455783172",
+        "fixme": "Check position",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7497774,
+          -19.1128786
+        ]
+      },
+      "id": "node/5455783172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5463834368",
+        "fixme": "Check position",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1069085,
+          -18.625028
+        ]
+      },
+      "id": "node/5463834368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5466221311",
+        "fixme": "Check position",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5419225,
+          -20.0677828
+        ]
+      },
+      "id": "node/5466221311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5503086711",
+        "name": "Chunga Rest Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2331727,
+          -15.8450852
+        ]
+      },
+      "id": "node/5503086711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690626",
+        "name": "Kubu Cabins Campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6486019,
+          -17.8300739
+        ]
+      },
+      "id": "node/5517690626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690627",
+        "name": "Campsite Camp Nkwazi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6460473,
+          -17.8304964
+        ]
+      },
+      "id": "node/5517690627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519722479",
+        "name": "Campsite Bruce-Miller-Lodge",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0248906,
+          -16.6367527
+        ]
+      },
+      "id": "node/5519722479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5527398511",
+        "name": "Chimanimani National Park, The Corner, campsite",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9610664,
+          -19.7016904
+        ]
+      },
+      "id": "node/5527398511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5568268484",
+        "name": "The Victoria Falls Waterfront \"Adventure Village\"",
+        "operator": "Safari Par Excellence",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8437946,
+          -17.8866272
+        ]
+      },
+      "id": "node/5568268484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5582737621",
+        "name": "Khama Rhino Sanctuary Mokongwa campsite #10",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7255235,
+          -22.2506783
+        ]
+      },
+      "id": "node/5582737621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5657773082",
+        "name": "chilojo camp site 2",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0913695,
+          -21.4368121
+        ]
+      },
+      "id": "node/5657773082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5765074053",
+        "name": "Machaila Community Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9525556,
+          -22.26275
+        ]
+      },
+      "id": "node/5765074053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5780981953",
+        "name": "Kuimba Shiri Bird Park",
+        "name:en": "Kuimba Shiri Bird Park",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.800189,
+          -17.8689411
+        ]
+      },
+      "id": "node/5780981953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5832940986",
+        "fixme": "I think this is not correct",
+        "name": "Mongwe Zambezi",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9902525,
+          -15.9336396
+        ]
+      },
+      "id": "node/5832940986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5890511289",
+        "name": "Irira village",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2579132,
+          -16.0892014
+        ]
+      },
+      "id": "node/5890511289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5890511386",
+        "name": "Chiwapura",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2406696,
+          -16.0841528
+        ]
+      },
+      "id": "node/5890511386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5890511387",
+        "name": "Kafamauro village",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2611672,
+          -16.089689
+        ]
+      },
+      "id": "node/5890511387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5956133785",
+        "name": "Dave & Tess Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3182409,
+          -15.7404188
+        ]
+      },
+      "id": "node/5956133785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5956133985",
+        "name": "Tamarind Camp",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9133508,
+          -15.9718712
+        ]
+      },
+      "id": "node/5956133985"
+    }
+  ]
+}

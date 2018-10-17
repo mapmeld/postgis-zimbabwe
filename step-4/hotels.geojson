@@ -1,0 +1,3841 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-10-11T00:15:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/308640456",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Elefant Valley Lodge",
+        "tourism": "hotel",
+        "website": "http://evlodge.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2438892,
+          -17.8525109
+        ]
+      },
+      "id": "node/308640456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/311559574",
+        "created_by": "Potlatch 0.10f",
+        "name": "Kingdom Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8424343,
+          -17.9286392
+        ]
+      },
+      "id": "node/311559574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/311559779",
+        "name": "Ilala Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8414521,
+          -17.9263505
+        ]
+      },
+      "id": "node/311559779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/311576850",
+        "created_by": "Potlatch 0.10f",
+        "name": "Elephant Hills Intercontinental",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8304269,
+          -17.9090614
+        ]
+      },
+      "id": "node/311576850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/471978980",
+        "name": "Maramba River Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8551393,
+          -17.8891213
+        ]
+      },
+      "id": "node/471978980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/482488758",
+        "name": "Lake View Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4647443,
+          -17.270555
+        ]
+      },
+      "id": "node/482488758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/529848732",
+        "name": "Bronte",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0523441,
+          -17.8174529
+        ]
+      },
+      "id": "node/529848732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/529848813",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.050885,
+          -17.8181066
+        ]
+      },
+      "id": "node/529848813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577476546",
+        "name": "Kanyemba Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9320011,
+          -15.9376454
+        ]
+      },
+      "id": "node/577476546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/634562040",
+        "name": "Drifters Victoria Falls Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8304204,
+          -17.9219793
+        ]
+      },
+      "id": "node/634562040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/900203386",
+        "name": "The Bushfront Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8452196,
+          -17.879111
+        ]
+      },
+      "id": "node/900203386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/900940424",
+        "name": "The Big 5 Chobe Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2411502,
+          -17.7948187
+        ]
+      },
+      "id": "node/900940424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/901089545",
+        "name": "Nanzhila Plains Safari Camp",
+        "tourism": "hotel",
+        "website": "http://www.nanzhila.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9181223,
+          -16.2789466
+        ]
+      },
+      "id": "node/901089545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/901123406",
+        "name": "Hunting Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0043959,
+          -15.9089463
+        ]
+      },
+      "id": "node/901123406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902582413",
+        "name": "Complexo Paradiso",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5919891,
+          -16.1584355
+        ]
+      },
+      "id": "node/902582413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902582414",
+        "internet_access": "wlan",
+        "name": "Zambezi Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5877405,
+          -16.1583917
+        ]
+      },
+      "id": "node/902582414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902582415",
+        "name": "Tete Motel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5988877,
+          -16.1647189
+        ]
+      },
+      "id": "node/902582415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902583959",
+        "name": "Apisana Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5918067,
+          -16.1579146
+        ]
+      },
+      "id": "node/902583959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902583960",
+        "name": "Misteriosa Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5917101,
+          -16.1583783
+        ]
+      },
+      "id": "node/902583960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902588047",
+        "name": "Windmill Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5513456,
+          -19.1082857
+        ]
+      },
+      "id": "node/902588047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910371784",
+        "name": "Chrismar Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8432912,
+          -17.8823192
+        ]
+      },
+      "id": "node/910371784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910515842",
+        "name": "Nata Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2677188,
+          -20.2239351
+        ]
+      },
+      "id": "node/910515842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910534982",
+        "name": "Planet Baobab Lodge",
+        "tourism": "hotel",
+        "website": "http://www.planetbaobab.co/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3055705,
+          -20.1892624
+        ]
+      },
+      "id": "node/910534982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/910830468",
+        "name": "Makuti Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2435507,
+          -16.3115901
+        ]
+      },
+      "id": "node/910830468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911024728",
+        "name": "Orange Grove Motel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1843232,
+          -17.3577449
+        ]
+      },
+      "id": "node/911024728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911024760",
+        "name": "Kanga Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2619358,
+          -15.9075966
+        ]
+      },
+      "id": "node/911024760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106154",
+        "name": "Ngezi Lodges",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3877542,
+          -18.7135994
+        ]
+      },
+      "id": "node/911106154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911106175",
+        "addr:housenumber": "Box 874 Kadoma",
+        "addr:street": "Bulawayo Road",
+        "email": "reservations@kadomarainbow.co.zw",
+        "internet_access": "wlan",
+        "name": "Kadoma Hotel",
+        "opening_hours": "24/7",
+        "phone": "+2636822321",
+        "tourism": "hotel",
+        "website": "http://www.kadomarainbow.co.zw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9237342,
+          -18.3315548
+        ]
+      },
+      "id": "node/911106175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163623",
+        "name": "Shebakwe Lodges",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1094548,
+          -18.9747136
+        ]
+      },
+      "id": "node/911163623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163643",
+        "name": "Great Zimbabwe Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9232644,
+          -20.2649633
+        ]
+      },
+      "id": "node/911163643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163664",
+        "name": "Chinyika Safaris",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2483637,
+          -18.9308448
+        ]
+      },
+      "id": "node/911163664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163688",
+        "name": "Nyangombe Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1603454,
+          -18.9760123
+        ]
+      },
+      "id": "node/911163688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163696",
+        "name": "Lodges 1 - 3",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2326954,
+          -19.0331714
+        ]
+      },
+      "id": "node/911163696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/915308562",
+        "name": "Lodges",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0097893,
+          -20.2185571
+        ]
+      },
+      "id": "node/915308562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/929052063",
+        "name": "Shamba Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.806043,
+          -18.927425
+        ]
+      },
+      "id": "node/929052063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/929052064",
+        "name": "Shamwarl Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8060977,
+          -18.9287443
+        ]
+      },
+      "id": "node/929052064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/929819109",
+        "name": "Cresta Churchill Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5817573,
+          -20.2120917
+        ]
+      },
+      "id": "node/929819109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/929819114",
+        "name": "Holiday Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6082696,
+          -20.1610066
+        ]
+      },
+      "id": "node/929819114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/929819117",
+        "name": "Fairmile Motel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8043403,
+          -19.4704622
+        ]
+      },
+      "id": "node/929819117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/929819123",
+        "name": "Park Road Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5969708,
+          -20.1585401
+        ]
+      },
+      "id": "node/929819123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966595813",
+        "name": "Amadeus Garden Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8232674,
+          -17.9256897
+        ]
+      },
+      "id": "node/966595813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966600678",
+        "name": "Victoria Falls Safari Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8193525,
+          -17.9169035
+        ]
+      },
+      "id": "node/966600678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966679481",
+        "name": "Golden Mile Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8016251,
+          -18.9493608
+        ]
+      },
+      "id": "node/966679481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966679495",
+        "name": "Halfway House",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3708893,
+          -18.7298487
+        ]
+      },
+      "id": "node/966679495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966759145",
+        "name": "Black Eagle Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5059379,
+          -20.550142
+        ]
+      },
+      "id": "node/966759145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/966776684",
+        "name": "Gweta Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2580712,
+          -20.2089732
+        ]
+      },
+      "id": "node/966776684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1363044106",
+        "name": "Troutbeck Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8085875,
+          -18.1825853
+        ]
+      },
+      "id": "node/1363044106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1363437792",
+        "name": "Inn on Great Zimbabwe",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0026002,
+          -20.2519793
+        ]
+      },
+      "id": "node/1363437792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1568809249",
+        "name": "Lake View Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7645569,
+          -16.535272
+        ]
+      },
+      "id": "node/1568809249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1568814170",
+        "name": "Carribea Bay Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7957993,
+          -16.5331738
+        ]
+      },
+      "id": "node/1568814170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1568818571",
+        "name": "Kariba Breezes Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.814098,
+          -16.5335795
+        ]
+      },
+      "id": "node/1568818571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1568818593",
+        "name": "Cutty Sark Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8191023,
+          -16.5336264
+        ]
+      },
+      "id": "node/1568818593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1704860509",
+        "name": "Zambezi Sun",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8656541,
+          -17.924307
+        ]
+      },
+      "id": "node/1704860509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2116368079",
+        "name": "Tshugulu Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2002897,
+          -22.2710751
+        ]
+      },
+      "id": "node/2116368079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2117404204",
+        "name": "Vhembe Wilderness Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4085224,
+          -22.1926849
+        ]
+      },
+      "id": "node/2117404204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2117424196",
+        "name": "Leokwe Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3648104,
+          -22.2177486
+        ]
+      },
+      "id": "node/2117424196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2277018210",
+        "name": "A'Zambezi",
+        "tourism": "hotel",
+        "website": "http://www.rtgafrica.com/hotels/victoria-falls/azambezi-river-lodge/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8223308,
+          -17.9009975
+        ]
+      },
+      "id": "node/2277018210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2281084814",
+        "name": "Ganda Lodge",
+        "source": "GPS",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9755234,
+          -18.6020442
+        ]
+      },
+      "id": "node/2281084814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2281098322",
+        "name": "Miombo Lodge",
+        "source": "GPS",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8724246,
+          -18.6283681
+        ]
+      },
+      "id": "node/2281098322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2300807703",
+        "name": "Hotel IGLU",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6027616,
+          -16.1748425
+        ]
+      },
+      "id": "node/2300807703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2417777419",
+        "name": "Kapula Lodge",
+        "place": "village",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2642497,
+          -18.7420271
+        ]
+      },
+      "id": "node/2417777419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2841429439",
+        "name": "Bumi Hills Safari Lodge",
+        "operator": "Bumi Hills",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3487825,
+          -16.8088657
+        ]
+      },
+      "id": "node/2841429439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2926564185",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6791794,
+          -18.3672877
+        ]
+      },
+      "id": "node/2926564185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2930722332",
+        "leisure": "resort",
+        "name": "The Hide Safari Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1593833,
+          -18.8733716
+        ]
+      },
+      "id": "node/2930722332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2965499576",
+        "name": "Regency Hotel Chevron",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8319202,
+          -20.0767315
+        ]
+      },
+      "id": "node/2965499576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058847680",
+        "name": "Gwabi Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8613169,
+          -15.9514829
+        ]
+      },
+      "id": "node/3058847680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3149083759",
+        "name": "Hotel Amirana",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4818611,
+          -19.1137141
+        ]
+      },
+      "id": "node/3149083759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3149083802",
+        "name": "Castelo Branco",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4696814,
+          -19.1078394
+        ]
+      },
+      "id": "node/3149083802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164150675",
+        "name": "Muchichiri Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3474583,
+          -15.7319004
+        ]
+      },
+      "id": "node/3164150675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3268719714",
+        "camp_type": "informal",
+        "impromptu": "yes",
+        "name": "Backpackers' Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0378292,
+          -22.3436945
+        ]
+      },
+      "id": "node/3268719714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3273808223",
+        "name": "Hungoidza Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.704586,
+          -20.6119979
+        ]
+      },
+      "id": "node/3273808223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3274342270",
+        "contact:email": "res1@unchartedafrica.com",
+        "contact:phone": "+27 (0)11 326 4407",
+        "internet_access": "no",
+        "name": "Jack’s Camp",
+        "operator": "Uncharted Africa Safari co",
+        "phone": "+27 (0)11 326 4407",
+        "power_supply": "generator",
+        "tourism": "hotel",
+        "website": "http://www.unchartedafrica.com/page.php?p_id=33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1340002,
+          -20.4679162
+        ]
+      },
+      "id": "node/3274342270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3412227728",
+        "addr:city": "Harare",
+        "addr:housenumber": "8",
+        "addr:street": "Chelmsford Road",
+        "name": "Chelmsford Manor",
+        "phone": "+2634332193",
+        "source": "survey",
+        "tourism": "hotel",
+        "website": "http://www.chelmsfordmanor.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.04152,
+          -17.7931616
+        ]
+      },
+      "id": "node/3412227728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454270077",
+        "name": "Estagem Zinapipia",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5912053,
+          -16.1667775
+        ]
+      },
+      "id": "node/3454270077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454387390",
+        "name": "Kikos",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5785761,
+          -16.1485363
+        ]
+      },
+      "id": "node/3454387390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454387499",
+        "amenity": "bar",
+        "amenity_1": "restaurant",
+        "name": "La Villa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6161324,
+          -16.1432675
+        ]
+      },
+      "id": "node/3454387499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454391154",
+        "name": "Hotel Felix",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6914919,
+          -16.1898597
+        ]
+      },
+      "id": "node/3454391154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454403976",
+        "amenity": "restaurant",
+        "name": "Mayfair Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3271916,
+          -17.3034221
+        ]
+      },
+      "id": "node/3454403976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454403978",
+        "amenity": "restaurant",
+        "name": "Hotel Magoe",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7485881,
+          -15.806463
+        ]
+      },
+      "id": "node/3454403978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3509607114",
+        "addr:city": "Livingstone",
+        "addr:housenumber": "216",
+        "addr:street": "Mosi-Oa-Tunya Road",
+        "email": "info@adventure-africa.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Fawlty Towers Lodge",
+        "operator": "African Horizons",
+        "phone": "+260 213 32 34 32",
+        "tourism": "hotel",
+        "website": "http://adventure-africa.com/accommodation/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8548079,
+          -17.8541875
+        ]
+      },
+      "id": "node/3509607114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698245522",
+        "name": "Leopard Rock Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.783018,
+          -19.1317046
+        ]
+      },
+      "id": "node/3698245522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3703155204",
+        "name": "Denise's Kitchen Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7749558,
+          -19.0765986
+        ]
+      },
+      "id": "node/3703155204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832491678",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7415453,
+          -21.8574505
+        ]
+      },
+      "id": "node/3832491678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3948488236",
+        "name": "Chobe Marina Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1491014,
+          -17.8005314
+        ]
+      },
+      "id": "node/3948488236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3948488248",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "andBeyond Matetsi River Lodge - West Camp",
+        "operator": "andBeyond",
+        "rooms": "9",
+        "tourism": "hotel",
+        "website": "https://www.andbeyond.com/our-lodges/africa/zimbabwe/victoria-falls/andbeyond-matetsi-river-lodge/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5007659,
+          -17.8647172
+        ]
+      },
+      "id": "node/3948488248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3994813910",
+        "name": "Coqueiro",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1737737,
+          -18.0564342
+        ]
+      },
+      "id": "node/3994813910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4182360175",
+        "name": "Hotel Rio",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6581266,
+          -20.207619
+        ]
+      },
+      "id": "node/4182360175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4213965391",
+        "addr:housenumber": "584",
+        "addr:street": "Manyika Road",
+        "internet_access": "wlan",
+        "name": "Bayete Guest Lodge",
+        "tourism": "hotel",
+        "website": "www.bayeteguestlodge.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8211155,
+          -17.9273484
+        ]
+      },
+      "id": "node/4213965391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4213983889",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3487504,
+          -21.2490334
+        ]
+      },
+      "id": "node/4213983889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4213988595",
+        "internet_access": "wlan",
+        "name": "Zambezi Sands (Imvelo)",
+        "tourism": "hotel",
+        "website": "www.imvelosafarilodges.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5823466,
+          -17.8448475
+        ]
+      },
+      "id": "node/4213988595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4226542190",
+        "email": "info@chobebakwena.com",
+        "name": "Bakwena Lodge",
+        "phone": "+267 6252812",
+        "tourism": "hotel",
+        "website": "www.chobebakwena.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2352323,
+          -17.7950586
+        ]
+      },
+      "id": "node/4226542190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4232914096",
+        "name": "Botshabelo Home Zola",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.872,
+          -21.9589441
+        ]
+      },
+      "id": "node/4232914096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4239211090",
+        "name": "Pioneers Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6984168,
+          -17.8364695
+        ]
+      },
+      "id": "node/4239211090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4239212890",
+        "name": "Sindabezi Island",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7112359,
+          -17.8433172
+        ]
+      },
+      "id": "node/4239212890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4239214989",
+        "name": "Tongabezi Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7034828,
+          -17.8210545
+        ]
+      },
+      "id": "node/4239214989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4269799676",
+        "addr:city": "Binga",
+        "addr:housenumber": "100",
+        "addr:street": "Binga Town Road",
+        "name": "Lake View Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3471786,
+          -17.6104797
+        ]
+      },
+      "id": "node/4269799676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4299128197",
+        "name": "Home Sweet Home",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9927625,
+          -17.803973
+        ]
+      },
+      "id": "node/4299128197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4323572067",
+        "addr:street": "Robert Mugabe",
+        "name": "The Grey's Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5879066,
+          -20.1539408
+        ]
+      },
+      "id": "node/4323572067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4340197094",
+        "name": "Happy Valley Farm",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7585423,
+          -19.5946986
+        ]
+      },
+      "id": "node/4340197094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4359470296",
+        "name": "Thebe River Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1823282,
+          -17.7865547
+        ]
+      },
+      "id": "node/4359470296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366758700",
+        "name": "Royal Livingstone",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "http://royal-livingstone.anantara.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8640151,
+          -17.9186999
+        ]
+      },
+      "id": "node/4366758700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4398320218",
+        "addr:city": "Bulawayo, Zimbabwe",
+        "addr:housenumber": "79",
+        "addr:street": "Burnside Rd",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hornung Park Lodge",
+        "operator": "Rita & Fredi Ruf",
+        "rooms": "5 Lodges",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6038022,
+          -20.2190296
+        ]
+      },
+      "id": "node/4398320218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4426810993",
+        "name": "Cresta Sprayview",
+        "name:en": "cresta spray view",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8291801,
+          -17.9310642
+        ]
+      },
+      "id": "node/4426810993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446356390",
+        "name": "Makadibeng Cattle Post",
+        "name:en": "Makadibeng Cattle Post",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8216456,
+          -22.1365694
+        ]
+      },
+      "id": "node/4446356390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446362889",
+        "name": "Zimbas Place",
+        "name:en": "Zimbas Place",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8727793,
+          -21.9573334
+        ]
+      },
+      "id": "node/4446362889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446367089",
+        "name": "Goitse's Place Phase 1",
+        "name:en": "Goitse's Place Phase 1",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8604085,
+          -21.9830309
+        ]
+      },
+      "id": "node/4446367089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4460015296",
+        "name": "Hotel Natura Tete",
+        "name:en": "Hotel Natura Tete",
+        "name:pt": "Hotel Natura Tete",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6157446,
+          -16.1126129
+        ]
+      },
+      "id": "node/4460015296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4461927995",
+        "name": "Hotel Kassuende Tete",
+        "name:en": "Hotel Kassuende Tete",
+        "name:pt": "Hotel Kassuende Tete",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5847593,
+          -16.1606417
+        ]
+      },
+      "id": "node/4461927995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4461960593",
+        "name": "Hotel Anif",
+        "name:en": "Hotel Anif",
+        "name:pt": "Hotel Anif",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5889783,
+          -16.1594754
+        ]
+      },
+      "id": "node/4461960593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4475039991",
+        "name": "Ngoli De Lodge",
+        "name:en": "Ngoli De Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8546992,
+          -17.861782
+        ]
+      },
+      "id": "node/4475039991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4475040093",
+        "name": "Zambezi Lodge",
+        "name:en": "Zambezi Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8549598,
+          -17.8762018
+        ]
+      },
+      "id": "node/4475040093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4479375390",
+        "name": "Panama Lodge",
+        "name:en": "Panama Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8587741,
+          -17.846365
+        ]
+      },
+      "id": "node/4479375390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4507156890",
+        "internet_access": "wlan",
+        "name": "City Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.510884,
+          -21.1612821
+        ]
+      },
+      "id": "node/4507156890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4508499493",
+        "name": "Satellite",
+        "name:en": "Satellite",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5373308,
+          -21.1879606
+        ]
+      },
+      "id": "node/4508499493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4510776791",
+        "name": "Baraka Valley",
+        "name:en": "Baraka Valley",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4552267,
+          -21.3912636
+        ]
+      },
+      "id": "node/4510776791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4537589690",
+        "name": "Rock's Place Phase 4",
+        "name:en": "Rock's Place Phase 4",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8770838,
+          -21.9890746
+        ]
+      },
+      "id": "node/4537589690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4544371994",
+        "internet_access": "wlan",
+        "name": "Chobe Safari Lodge",
+        "name:en": "Chobe Safari Lodge",
+        "smoking": "outside",
+        "source": "NMP HOT Field Survey",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1463254,
+          -17.8059284
+        ]
+      },
+      "id": "node/4544371994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4552784192",
+        "internet_access": "wlan",
+        "name": "Comfort Palace Hotel",
+        "name:en": "Comfort Palace Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2318661,
+          -17.8040955
+        ]
+      },
+      "id": "node/4552784192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4571917397",
+        "name": "⛪ Kingdom Hall Mkoba 18",
+        "name:en": "⛪ Kingdom Hall Mkoba 18",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7444442,
+          -19.442603
+        ]
+      },
+      "id": "node/4571917397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4590459690",
+        "email": "michaeltnedziwe@gmail.com",
+        "name": "Nedziwe residents, Harare",
+        "operator": "Michael Nedziwe",
+        "phone": "+263774448850",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9209754,
+          -17.8063366
+        ]
+      },
+      "id": "node/4590459690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4605624097",
+        "addr:street": "Juliusdale",
+        "name": "Montclaire Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6788785,
+          -18.3679365
+        ]
+      },
+      "id": "node/4605624097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623708292",
+        "name": "Big Cave Camp",
+        "tourism": "hotel",
+        "website": "http://www.bigcavematopos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.445171,
+          -20.5039321
+        ]
+      },
+      "id": "node/4623708292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4687039985",
+        "name": "Lake Kariba Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7052161,
+          -16.5371366
+        ]
+      },
+      "id": "node/4687039985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4687199392",
+        "addr:housenumber": "640",
+        "addr:postcode": "10101",
+        "addr:street": "Nehru way",
+        "email": "nchimunya2011@hotmail.com",
+        "name": "Mooloke lodge",
+        "name:en": "Mooloke lodge",
+        "opening_hours": "24/7",
+        "operator": "Mr Ntiinda",
+        "phone": "00260979719898",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8617145,
+          -17.8356287
+        ]
+      },
+      "id": "node/4687199392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4697948293",
+        "name": "Dangamvura hotel",
+        "name:en": "Dangamvura hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5914394,
+          -18.9988603
+        ]
+      },
+      "id": "node/4697948293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4720952988",
+        "name": "Vic's Travern",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8969327,
+          -19.0197988
+        ]
+      },
+      "id": "node/4720952988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4809104421",
+        "name": "Toka Leya Camp",
+        "name:en": "Toka Leya Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7876948,
+          -17.855101
+        ]
+      },
+      "id": "node/4809104421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4816247879",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6723472,
+          -21.4978875
+        ]
+      },
+      "id": "node/4816247879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4819680405",
+        "name": "Alfandega Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6710535,
+          -19.1110189
+        ]
+      },
+      "id": "node/4819680405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4847923321",
+        "addr:postcode": "60469",
+        "addr:street": "Farm 1519a, Nakatindi Road",
+        "email": "reservations@theriverclubzambia.com",
+        "internet_access": "wlan",
+        "name": "The River Club",
+        "phone": "+26213327457",
+        "tourism": "hotel",
+        "website": "http://www.theriverclubafrica.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7030323,
+          -17.8284061
+        ]
+      },
+      "id": "node/4847923321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4853152831",
+        "building": "yes",
+        "email": "safker@global.co.za",
+        "name": "Musungwa Lodge",
+        "phone": "0971803090",
+        "tourism": "hotel",
+        "website": "http://www.musungwalodge.co.za/location.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0055109,
+          -15.7828745
+        ]
+      },
+      "id": "node/4853152831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4854951430",
+        "name": "Sanctuary Sissi & Chuma",
+        "name:en": "Sanctuary Sissi & Chuma",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7701095,
+          -17.8411556
+        ]
+      },
+      "id": "node/4854951430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4864761421",
+        "name": "Sanctuary Chobe",
+        "name:en": "Sanctuary Chobe",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1379247,
+          -17.8278014
+        ]
+      },
+      "id": "node/4864761421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4902471621",
+        "name": "Zvishavane Panorama Lodge",
+        "name:en": "Zvishavane Panorama Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0612057,
+          -20.31354
+        ]
+      },
+      "id": "node/4902471621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922816164",
+        "name": "Camp Kalahari",
+        "operator": "Ker-Downey",
+        "tourism": "hotel",
+        "website": "https://ker-downeyafrica.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1329969,
+          -20.4680987
+        ]
+      },
+      "id": "node/4922816164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4945609425",
+        "addr:housenumber": "94",
+        "addr:street": "Fourth Street",
+        "internet_access": "wlan",
+        "name": "Traveler's Lodge",
+        "smoking": "outside",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6745772,
+          -18.9717089
+        ]
+      },
+      "id": "node/4945609425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4948836909",
+        "name": "Halfway Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4398767,
+          -18.0748876
+        ]
+      },
+      "id": "node/4948836909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4959629614",
+        "name": "Hotel St Patrick's",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5893537,
+          -20.1631218
+        ]
+      },
+      "id": "node/4959629614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4974320721",
+        "name": "Paradise Hotel",
+        "name:en": "Paradise Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6410479,
+          -19.2682802
+        ]
+      },
+      "id": "node/4974320721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4979867922",
+        "internet_access": "wlan",
+        "name": "Purview Logde real location 2017",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1884501,
+          -15.780584
+        ]
+      },
+      "id": "node/4979867922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4983144925",
+        "name": "Lower Zambezi Lodge",
+        "name:en": "Lower Zambezi Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2689983,
+          -15.7515248
+        ]
+      },
+      "id": "node/4983144925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4983184423",
+        "name": "Munyemeshi River Lodge",
+        "name:en": "Munyemeshi River Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.254626,
+          -15.7571406
+        ]
+      },
+      "id": "node/4983184423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5004895726",
+        "addr:housenumber": "1406",
+        "addr:street": "Reynard Road",
+        "email": "info@batonkaguestlodge.com",
+        "internet_access": "wlan",
+        "name": "Batonka Guest Lodge",
+        "opening_hours": "24/7",
+        "phone": "+2632132847189",
+        "tourism": "hotel",
+        "website": "http://www.batonkaguestlodge.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8277046,
+          -17.9293558
+        ]
+      },
+      "id": "node/5004895726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5034182322",
+        "name": "TravLodge",
+        "name:en": "TravLodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.154074,
+          -17.813507
+        ]
+      },
+      "id": "node/5034182322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5071636623",
+        "name": "Southern Lodge",
+        "name:en": "Southern Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9633688,
+          -16.8196677
+        ]
+      },
+      "id": "node/5071636623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5071659622",
+        "name": "Golden Pillow Lodge",
+        "name:en": "Golden Pillow Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9633309,
+          -16.8118148
+        ]
+      },
+      "id": "node/5071659622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5109039431",
+        "email": "reservations@sausagetreecamp.com",
+        "internet_access": "wlan",
+        "name": "Saussage Tree Camp",
+        "phone": "+260 976 579 155",
+        "tourism": "hotel",
+        "website": "http://www.sausagetreecamp.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4790411,
+          -15.6779043
+        ]
+      },
+      "id": "node/5109039431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5109052921",
+        "email": "reservations@royalchundu.com",
+        "internet_access": "wlan",
+        "name": "Royal Chundu Island Lodge",
+        "operator": "Tina Aponte",
+        "phone": "+260 213 327 060",
+        "tourism": "hotel",
+        "website": "https://www.royalchundu.com/en/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3926686,
+          -17.8470915
+        ]
+      },
+      "id": "node/5109052921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5122166717",
+        "internet_access": "no",
+        "name": "It's a Small World Wilderness Ecolodge",
+        "operator": "Small World Lodges",
+        "rooms": "15",
+        "smoking": "outside",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0486535,
+          -16.4473072
+        ]
+      },
+      "id": "node/5122166717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5123652989",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "andBeyond Matetsi River Lodge - East Camp",
+        "operator": "andBeyond",
+        "rooms": "9",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5052077,
+          -17.8657174
+        ]
+      },
+      "id": "node/5123652989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259194221",
+        "email": "reservations@chobebushlodge.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Chobe Bush Lodge",
+        "phone": "+267 625 0 383",
+        "rooms": "42",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "http://underonebotswanasky.com/camps/chobe-bush-lodge.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1474294,
+          -17.807146
+        ]
+      },
+      "id": "node/5259194221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5261468396",
+        "email": "bookings@elephantsandsbotswana.com",
+        "internet_access": "yes",
+        "name": "Elephant Sands Lodge",
+        "phone": "+267 73445162",
+        "smoking": "outside",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0712974,
+          -19.7489674
+        ]
+      },
+      "id": "node/5261468396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5274941863",
+        "name": "Senyati Safari Lodge",
+        "phone": "+26771881306",
+        "tourism": "hotel",
+        "website": "http://senyatisafaricampbotswana.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2358889,
+          -17.8723096
+        ]
+      },
+      "id": "node/5274941863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5276892829",
+        "email": "res6@wildhorizons.co.zw",
+        "name": "Imbabala Zambezi Safari Lodge",
+        "phone": "+263 (0)712 213 721",
+        "tourism": "hotel",
+        "website": "http://www.imbabalazambezisafarilodge.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2844426,
+          -17.8182334
+        ]
+      },
+      "id": "node/5276892829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5277534072",
+        "email": "enquiry@crestahotels.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Cresta Mowana Safari Resort & Spa",
+        "phone": "+267 625 0300",
+        "rooms": "114",
+        "smoking": "outside",
+        "source": "NMP HOT Field Survey",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "http://www.crestamowana.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1584058,
+          -17.7823329
+        ]
+      },
+      "id": "node/5277534072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287015480",
+        "addr:city": "Kasane",
+        "addr:housenumber": "Plot 82R",
+        "addr:street": "Kazungula Kasane Road",
+        "name": "Kwalape Safari Lodge",
+        "tourism": "hotel",
+        "website": "http://www.kwalapesafarilodge.co.bw/en/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2177408,
+          -17.7980519
+        ]
+      },
+      "id": "node/5287015480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5292016939",
+        "addr:housenumber": "238",
+        "addr:street": "Galloway Road",
+        "email": "nzou@mweb.co.zw",
+        "name": "Village Pakare Paye",
+        "operator": "Oliver Mtukudzi",
+        "phone": "+263 772 630 386",
+        "tourism": "hotel",
+        "website": "https://m.facebook.com/davidlennings1/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6885877,
+          -17.8757667
+        ]
+      },
+      "id": "node/5292016939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5300824752",
+        "name": "Lesoma Valley Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2244601,
+          -17.908772
+        ]
+      },
+      "id": "node/5300824752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5300824754",
+        "name": "Liya Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.241103,
+          -17.900409
+        ]
+      },
+      "id": "node/5300824754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5305988952",
+        "name": "Cresta Bosele Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8443624,
+          -21.9763536
+        ]
+      },
+      "id": "node/5305988952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5305988957",
+        "name": "Travel Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8436676,
+          -21.9877846
+        ]
+      },
+      "id": "node/5305988957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5305988958",
+        "name": "Syringa Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8430358,
+          -21.987324
+        ]
+      },
+      "id": "node/5305988958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306076188",
+        "name": "Rovallen Park",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.5239489,
+          -20.4261148
+        ]
+      },
+      "id": "node/5306076188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306076422",
+        "name": "Matobo Hills Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4783546,
+          -20.4852586
+        ]
+      },
+      "id": "node/5306076422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306076424",
+        "name": "Granite Ridge Farm House Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4348936,
+          -20.5080055
+        ]
+      },
+      "id": "node/5306076424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306100433",
+        "name": "Imbila Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.498912,
+          -20.5431723
+        ]
+      },
+      "id": "node/5306100433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306149715",
+        "name": "Modumela Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6641415,
+          -20.6837818
+        ]
+      },
+      "id": "node/5306149715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5309885249",
+        "name": "Northgate Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1815213,
+          -20.2108384
+        ]
+      },
+      "id": "node/5309885249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5309903721",
+        "name": "Holly's",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0402722,
+          -17.8440484
+        ]
+      },
+      "id": "node/5309903721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5335310928",
+        "name": "Zim Safari Lodge Hermits",
+        "name:en": "Zim Safari Lodge Hermits",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4312946,
+          -20.489834
+        ]
+      },
+      "id": "node/5335310928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5347836376",
+        "name": "Nesbitt Arms Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.666582,
+          -21.0460724
+        ]
+      },
+      "id": "node/5347836376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5353899343",
+        "name": "Boteti Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5824967,
+          -21.4284018
+        ]
+      },
+      "id": "node/5353899343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5353977571",
+        "name": "Maya Guest Inn",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1853921,
+          -20.2130119
+        ]
+      },
+      "id": "node/5353977571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5353977572",
+        "addr:city": "Letlhakane",
+        "name": "Mikelele Motel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5852821,
+          -21.3922519
+        ]
+      },
+      "id": "node/5353977572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5370720688",
+        "name": "N1",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8400999,
+          -17.9253764
+        ]
+      },
+      "id": "node/5370720688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5372181995",
+        "name": "Warm Harbor",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8557209,
+          -17.8647407
+        ]
+      },
+      "id": "node/5372181995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5372983077",
+        "name": "Road Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8544183,
+          -17.8677968
+        ]
+      },
+      "id": "node/5372983077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5390158525",
+        "name": "Satare Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1613936,
+          -22.2067024
+        ]
+      },
+      "id": "node/5390158525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5390165086",
+        "name": "Shalimpo Game Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3452531,
+          -22.1889645
+        ]
+      },
+      "id": "node/5390165086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5390165087",
+        "name": "Rock Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1468234,
+          -22.2136791
+        ]
+      },
+      "id": "node/5390165087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417769334",
+        "name": "Little Vundu Tented Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2213144,
+          -15.7719295
+        ]
+      },
+      "id": "node/5417769334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417769335",
+        "name": "Vundu Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2235565,
+          -15.7710238
+        ]
+      },
+      "id": "node/5417769335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417780478",
+        "name": "Gwaya Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3445887,
+          -15.7329534
+        ]
+      },
+      "id": "node/5417780478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417780487",
+        "name": "Musango Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3509295,
+          -15.7304327
+        ]
+      },
+      "id": "node/5417780487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417780515",
+        "name": "Nyati Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3531173,
+          -15.7292923
+        ]
+      },
+      "id": "node/5417780515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5437048722",
+        "addr:housenumber": "884/5",
+        "addr:postcode": "1234",
+        "addr:street": "Lenong",
+        "email": "bq@quinter.co",
+        "internet_access": "wlan",
+        "name": "Green House",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "operator": "Green House",
+        "phone": "+26771555556",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5162162,
+          -21.1634255
+        ]
+      },
+      "id": "node/5437048722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5456260223",
+        "name": "Little Makalolo",
+        "tourism": "hotel",
+        "website": "http://www.wildernesssafaris.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2502635,
+          -19.0701328
+        ]
+      },
+      "id": "node/5456260223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5492042521",
+        "name": "Amanzi",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1317579,
+          -17.7657149
+        ]
+      },
+      "id": "node/5492042521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5502755489",
+        "name": "Hornbill Safari Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0323478,
+          -16.1976298
+        ]
+      },
+      "id": "node/5502755489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5507247628",
+        "name": "Lwanginga guesthouse",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1785503,
+          -15.7646666
+        ]
+      },
+      "id": "node/5507247628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5508777900",
+        "name": "Mulobezi Hunting Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5928296,
+          -16.2843187
+        ]
+      },
+      "id": "node/5508777900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5515605687",
+        "name": "Sekoma Island Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1763334,
+          -17.7489593
+        ]
+      },
+      "id": "node/5515605687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5515605688",
+        "name": "Kaza Safari Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1691947,
+          -17.7521592
+        ]
+      },
+      "id": "node/5515605688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5515605689",
+        "name": "Grant Camp",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1864629,
+          -17.7625236
+        ]
+      },
+      "id": "node/5515605689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5515605690",
+        "name": "Mombova Tiger Fishing Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.188621,
+          -17.7487705
+        ]
+      },
+      "id": "node/5515605690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690464",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4167438,
+          -17.8441144
+        ]
+      },
+      "id": "node/5517690464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690468",
+        "name": "The Islands of Siankaba Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.57322,
+          -17.8351017
+        ]
+      },
+      "id": "node/5517690468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690625",
+        "name": "Waterberry Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6357161,
+          -17.8329621
+        ]
+      },
+      "id": "node/5517690625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690629",
+        "name": "Mama Out Of Africa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6578931,
+          -17.8203369
+        ]
+      },
+      "id": "node/5517690629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690630",
+        "name": "Kayube Zambezi River House",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6593368,
+          -17.8189432
+        ]
+      },
+      "id": "node/5517690630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690631",
+        "name": "Chundukwa River Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6727535,
+          -17.8096252
+        ]
+      },
+      "id": "node/5517690631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690632",
+        "name": "Natural Mystic Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6844628,
+          -17.8064807
+        ]
+      },
+      "id": "node/5517690632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690633",
+        "name": "Tangala House",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7043702,
+          -17.8135478
+        ]
+      },
+      "id": "node/5517690633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690640",
+        "name": "Bushbuck River House",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7348504,
+          -17.8366245
+        ]
+      },
+      "id": "node/5517690640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5517690641",
+        "name": "Thorntree River Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7538411,
+          -17.8432011
+        ]
+      },
+      "id": "node/5517690641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519734523",
+        "name": "Masuku Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0703934,
+          -16.6508364
+        ]
+      },
+      "id": "node/5519734523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519787829",
+        "name": "Bruce Miller Game Farm",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0042777,
+          -16.6474022
+        ]
+      },
+      "id": "node/5519787829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519802436",
+        "name": "Lake Safari Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7080426,
+          -16.5419535
+        ]
+      },
+      "id": "node/5519802436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5519802439",
+        "name": "Manchinchi Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7266038,
+          -16.5350238
+        ]
+      },
+      "id": "node/5519802439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5610932122",
+        "name": "Kwalape Hotel",
+        "name:en": "Kwalape Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2174933,
+          -17.7979398
+        ]
+      },
+      "id": "node/5610932122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5631835023",
+        "name": "Pokoje Bush Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7778834,
+          -21.9738938
+        ]
+      },
+      "id": "node/5631835023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5649228765",
+        "name": "Kiambi Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9253364,
+          -15.9364949
+        ]
+      },
+      "id": "node/5649228765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5657777028",
+        "name": "chilo gorge safari lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3484999,
+          -21.2488207
+        ]
+      },
+      "id": "node/5657777028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5680914724",
+        "name": "Lake Safari Lodge Annex",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7095828,
+          -16.5391207
+        ]
+      },
+      "id": "node/5680914724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5683895322",
+        "name": "Fresh View Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7012013,
+          -16.5390536
+        ]
+      },
+      "id": "node/5683895322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5721279948",
+        "name": "Flatdog Lodge Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8231241,
+          -17.927385
+        ]
+      },
+      "id": "node/5721279948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5751463923",
+        "name:sv": "victoria falls budget Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8361474,
+          -17.9320926
+        ]
+      },
+      "id": "node/5751463923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5751584721",
+        "name": "Olga,s The Italien Corner",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8560541,
+          -17.849879
+        ]
+      },
+      "id": "node/5751584721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5767316560",
+        "name": "Christmas Pass",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6243221,
+          -18.9359519
+        ]
+      },
+      "id": "node/5767316560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5767328954",
+        "name": "Eastgate",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6667235,
+          -18.9708961
+        ]
+      },
+      "id": "node/5767328954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5774734259",
+        "addr:housenumber": "679 Kingfisher Road",
+        "addr:street": "Kingfisher Road",
+        "internet_access": "yes",
+        "name": "King Fisher Lodge",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6674327,
+          -21.0359422
+        ]
+      },
+      "id": "node/5774734259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5803651558",
+        "addr:street": "Kingfisher Road",
+        "internet_access": "wlan",
+        "name": "King Fisher lodge",
+        "phone": "077 124 4535",
+        "tourism": "hotel",
+        "website": "https://www.kingfisher-guesthouse.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6680877,
+          -21.0367257
+        ]
+      },
+      "id": "node/5803651558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5803677655",
+        "internet_access": "wlan",
+        "name": "Triangle Country Club",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4474424,
+          -21.030943
+        ]
+      },
+      "id": "node/5803677655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5863139695",
+        "internet_access": "yes",
+        "name": "University of Technology (CUT) HOTEL",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2100822,
+          -17.3507997
+        ]
+      },
+      "id": "node/5863139695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5890510992",
+        "name": "Mayfair",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3281249,
+          -17.3028947
+        ]
+      },
+      "id": "node/5890510992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5969331386",
+        "name": "Hotel China",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9833169,
+          -16.8101632
+        ]
+      },
+      "id": "node/5969331386"
+    }
+  ]
+}
