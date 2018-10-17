@@ -53,10 +53,20 @@ INSERT INTO train_reviews (train_id, stars) VALUES (1, 5);
 INSERT INTO train_reviews (train_id, stars) VALUES (2, 1);
 ```
 
-Using ogr2ogr (from GDAL)
+### Importing the geodata using ogr2ogr (from GDAL)
 
 ```bash
 ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
 
 csvsql --db postgresql:///pyzim step-4/health.csv --insert
+```
+
+### Launching the static site
+
+```bash
+wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install -g http-server
+
+cd workshop-config && sudo http-server
 ```
