@@ -17,26 +17,42 @@ Install ogr2ogr by installing GDAL.
 
 ### Interactive Tutorial
 
-You can test that the data got imported into PostGIS and is readable by py:zim user:
+Here we are talking about different data sources. I'm interested to hear where
+PyZim members have found good geo-data before.
+
+- Downloading Districts and Wards
+
+I wanted to find districts and election ward boundaries. I was able to locate them
+on data.humdata.org
+
+I also found health data here, but it is not updated since 2007.
+
+- Downloading OSM data
+
+(TBD: brief intro to OpenStreetMap)
+
+There are tons of community-built data on OpenStreetMap (OSM), including a monthly-updated, 340MB zipped buildings shapefile from https://data.humdata.org/dataset/hotosm_zwe_buildings
+
+I used http://overpass-turbo.eu/ to download ~120 wells mapped on OpenStreetMap
 
 ```
-psql pyzim -U py
-# you are now in the PostgreSQL prompt
-
-SELECT COUNT(*) FROM trains;
-
- count
-------
-    2
+node
+  [man_made=water_well]
+  ({{bbox}});
+out;
 ```
 
-TBD: walk-through downloading and importing districts
-TBD: walk-through downloading and importing OSM features
-TBD: check that OSM features are present
+You can also download tourism=attraction and tourism=hotel datasets.
+
+Camps, hotels, and wells GeoJSON files are all available in this directory.
+
+- Importing Geo CSVs
+
+There's a good example in Step 4 of uploading a CSV which has latitude and longitude.
 
 ### Learnings
 
 - Do members of PyZim know good sources for local open data?
 - What is OpenStreetMap?
 - How can I get data to make quality websites?
-- (Ideally) how-to for installing ogr2ogr on my computer
+- Links for installing ogr2ogr on my computer

@@ -38,7 +38,7 @@ function initMap() {
 
   map.addListener('click', function(e) {
     //console.log(e.latLng);
-    fetch('/about?lat=' + e.latLng.lat() + '&lng=' + e.latLng.lng())
+    fetch('/local?lat=' + e.latLng.lat() + '&lng=' + e.latLng.lng())
         .then(response => response.json())
         .then((jso) => {
           /// console.log(jso);
@@ -52,31 +52,30 @@ function initMap() {
           if (jso.adm1 === 'Foreign') {
             alert('Foreign click')
           } else {
-            let feature = JSON.parse(jso.geojson);
-            map.data.addGeoJson({
-              type: 'Feature',
-              geometry: feature,
-              properties: {
-                adm1: jso.adm1,
-                adm2: jso.adm2,
-                level: 'district'
-              }
-            });
-
-            if (jso.ward) {
-              let ward = JSON.parse(jso.ward);
-              map.data.addGeoJson({
-                type: 'Feature',
-                geometry: ward,
-                properties: {
-                  level: 'ward'
-                }
-              });
-            }
+            // let feature = JSON.parse(jso.geojson);
+            // map.data.addGeoJson({
+            //   type: 'Feature',
+            //   geometry: feature,
+            //   properties: {
+            //     adm1: jso.adm1,
+            //     adm2: jso.adm2,
+            //     level: 'district'
+            //   }
+            // });
+            //
+            // if (jso.ward) {
+            //   let ward = JSON.parse(jso.ward);
+            //   map.data.addGeoJson({
+            //     type: 'Feature',
+            //     geometry: ward,
+            //     properties: {
+            //       level: 'ward'
+            //     }
+            //   });
+            // }
 
             info.setPosition(e.latLng);
-            let nearest = (jso.centers.length === 0) ? '' : ('<hr/>Nearest is ' + jso.centers[0].name + ' at ' + (jso.centers[0].distance/1000).toFixed(1) + 'km');
-            info.setContent('<h3>' + jso.adm1 + ' / ' + jso.adm2 + '</h3><hr/>' + jso.centers.length + ' health facilities within 20km of your click' + nearest);
+            info.setContent('<h3>' + jso.adm1 + ' / ' + jso.adm2 + '</h3>');
             info.open(map);
           }
         });

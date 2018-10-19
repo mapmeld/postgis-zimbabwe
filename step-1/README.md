@@ -27,6 +27,14 @@ When you edit serve.py, the server will restart!
 
 ### Interactive Tutorial
 
+This is a demo of geospatial data and a PostGIS-powered API which are useful for different projects.
+
+Where did we get this data? How does PostGIS respond so quickly? Why use PostGIS
+instead of a standard Postgres/MySQL db?
+
+The public database has a read-only py:zim user, so you can do SELECT and JOIN
+but not CREATE TABLE or DROP TABLE.
+
 ### Learnings
 
 - Is your computer set up to run a Python server and database?

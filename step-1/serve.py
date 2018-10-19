@@ -21,9 +21,9 @@ def index():
 def about():
     """
     return a simple list of stats about this point:
-    - which Zimbabwe district is it in?
-    -- download the district GeoJSON
-    - how far is it from its nearest international airports?
+    - which Zimbabwe district and ward is it in?
+    -- download the district and ward GeoJSON
+    - how far is it from health facilities?
     """
     cursor.execute("""SELECT adm1, adm2, ST_AsGeoJSON(wkb_geometry) AS geojson
             FROM districts
@@ -34,12 +34,23 @@ def about():
     if result is None:
         return json.dumps({"adm1": "Foreign", "adm2": "Foreign"})
     else:
-        cursor.execute("""SELECT COUNT(*)
-                FROM health
-                WHERE ST_DWithin(point, ST_MakePoint(%s, %s), 20000)""",
+        cursor.execute("""SELECT ST_AsGeoJSON(wkb_geometry) AS ward
+                FROM wards
+                WHERE ST_Intersects(wkb_geometry, ST_MakePoint(%s, %s))""",
             (request.args.get('lng'), request.args.get('lat')))
-        healthcount = cursor.fetchone()
-        result["count"] = healthcount["count"]
+        ward = cursor.fetchone()
+        if ward is not None:
+            result["ward"] = ward["ward"]
+
+        cursor.execute("""SELECT ST_Distance(point, ST_MakePoint(%s, %s)) AS distance, name
+                FROM health
+                WHERE ST_DWithin(point, ST_MakePoint(%s, %s), 20000)
+                ORDER BY ST_Distance(point, ST_MakePoint(%s, %s)) ASC""",
+            (request.args.get('lng'), request.args.get('lat'),
+                request.args.get('lng'), request.args.get('lat'),
+                request.args.get('lng'), request.args.get('lat')))
+        centers = cursor.fetchall()
+        result["centers"] = centers
 
         return json.dumps(result)
 

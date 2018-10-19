@@ -16,12 +16,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello Local Area!"
+    return app.send_static_file('index.html')
 
 @app.route('/local')
 def local():
     """
-    return local district name and GeoJSON boundary
+    return local district name
+    make a good error if it isn't in Zimbabwe
     """
     cursor.execute("""SELECT adm1, adm2
             FROM districts
@@ -29,10 +30,12 @@ def local():
         (request.args.get('lng'), request.args.get('lat')))
     result = cursor.fetchone()
 
-    if result is None:
-        return json.dumps({"adm1": "Foreign", "adm2": "Foreign"})
-    else:
-        return json.dumps(result)
+    return json.dumps(result)
+
+    # if result is None:
+    #     return json.dumps({"adm1": "Foreign", "adm2": "Foreign"})
+    # else:
+    #     return json.dumps(result)
 
 @app.route('/health')
 def health():

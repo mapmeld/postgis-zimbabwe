@@ -36,8 +36,6 @@ REVOKE CREATE ON SCHEMA public FROM py;
 CREATE EXTENSION postgis;
 ```
 
-TBD do not allow py to create their own tables
-
 Import the trains table (TBD: replace with a CSV import)
 
 ```sql
@@ -64,6 +62,14 @@ sudo apt-get install gdal-bin
 sudo -i -u postgres
 ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
 csvsql --db postgresql:///pyzim step-4/health.csv --insert
+psql pyzim
+```
+
+Rename and reclassify the districts table
+
+```sql
+ALTER TABLE zimbabwe_districts RENAME TO districts;
+ALTER TABLE districts ALTER wkb_geometry TYPE GEOGRAPHY;
 ```
 
 ### Launching the Jupyter notebooks
@@ -88,35 +94,7 @@ disown
 
 ### TODOs
 
-Step One:
-- Nearest health / known hotel || camp
-- Explain server-side Flask and that py:zim cannot create or drop tables
-- switch to python-responder.org?
-
-Step Two:
-- Re org: basic finding different types of data and importing it, will need ogr2ogr for the more advanced GeoJSON example
-TBD: walk-through downloading and importing districts
-TBD: walk-through downloading and importing OSM features
-TBD: check that OSM features are present
-
-Step Three:
-- Re org: this is any non-geo SQL example
-- SQLAlchemy
-- JSONB example
-
-Step Four:
-- Re org: this is any geo SQL example (include creating point GEOMETRY column)
-
-Step Five:
-- SQLAlchemy
-- Point in polygon APIs
-- Other queries and APIs
-
-Step Six:
-- Geocoding and buffering
-
 - JupyterHub
 - SQLAlchemy via https://docs.sqlalchemy.org/en/latest/dialects/postgresql.html#module-sqlalchemy.dialects.postgresql.psycopg2
 - Take-home Tips for installing Python, PostgreSQL, PostGIS, GDAL on systems
-- Slides (Who am I? What does GIS stand for? What is PostGIS? Why do we need specialized database (for example, surface distance using sphere radians))
 - Finish adding more notebooks

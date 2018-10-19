@@ -16,7 +16,13 @@ pip install psycopg2
 As the db admin user, import GeoJSON and other files using ogr2ogr (part of GDAL install). Here's how we imported a GeoJSON file into a "zimbabwe_districts" table:
 
 ```bash
-ogr2ogr -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
+ogr2ogr -append -f "PostgreSQL" PG:"dbname=pyzim" zimbabwe-districts.geojson
+```
+
+Here's how an ESRI Shapefile format can be imported (after unzipping)
+
+```bash
+ogr2ogr -append -f "ESRI Shapefile" PG:"dbname=pyzim" wards.shp -nln wards
 ```
 
 Tips for importing other formats of geodata:
@@ -29,21 +35,6 @@ don't have a GEOGRAPHY type, you ought to run ```CREATE EXTENSION postgis;``` fi
 ALTER TABLE zimbabwe_districts RENAME TO districts;
 ALTER TABLE districts ALTER wkb_geometry TYPE GEOGRAPHY;
 ```
-
-Importing Geo Data: OpenStreetMap
-
-There are tons of community-built data on OpenStreetMap (OSM), including a monthly-updated, 340MB zipped buildings shapefile from https://data.humdata.org/dataset/hotosm_zwe_buildings
-
-I used http://overpass-turbo.eu/ to download ~120 wells mapped on OpenStreetMap
-
-```
-node
-  [man_made=water_well]
-  ({{bbox}});
-out;
-```
-
-You can also download tourism=attraction and tourism=hotel datasets.
 
 Importing Geo Data: Other
 

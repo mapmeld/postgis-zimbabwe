@@ -11,13 +11,11 @@ together.
 
 ### Installing and running locally
 
-Install a Python library to help connect to any PostgreSQL database.
+If you're coding in Python, use psycopg2 or SQLAlchemy to connect to a database.
 
 ```bash
 pip install psycopg2
 ```
-
-TODO: SQLAlchemy? Is that a thing?
 
 ### Interactive Tutorial
 
@@ -57,8 +55,18 @@ SELECT start, finish, AVG(stars) FROM trains
     GROUP BY start, finish;
 ```
 
+Some newer databases are known as 'NoSQL' databases because they allow other types
+of data storage. For example, MongoDB will store many nested objects and arrays in one JSON 'document'. You can write special queries to go deep into these unstructured
+individualized objects.
+
+PostgreSQL now has a JSONB data type which we won't use here, but you should try out
+someday.
+
 ```sql
-TODO: JSONB type example
+INSERT INTO cards VALUES (1, 1, '{"name": "Paint house", "tags": ["Improvements", "Office"], "finished": true}');
+
+SELECT data->>'name' AS name FROM cards
+SELECT COUNT(*) FROM cards WHERE data ? 'ingredients';
 ```
 
 We can also improve performance in large datasets by adding an index. Let's say we
