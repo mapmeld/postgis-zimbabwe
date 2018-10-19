@@ -49,11 +49,9 @@ WHERE ST_Intersects(wkb_geometry,
 )
 ```
 
-I think that the rest of the project is mostly making the JavaScript UI/UX.
+Most of the rest of the project would be JavaScript UI/UX
 
-```javascript
-
-```
+(can go over index.html for now, or use Google Maps API docs to add autocomplete)
 
 Census circle/radius calculation?
 
