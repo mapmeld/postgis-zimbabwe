@@ -81,14 +81,14 @@ ALTER TABLE districts ALTER wkb_geometry TYPE GEOGRAPHY;
 
 Technically we should use JupyterHub. Maybe in the future.
 
-### Launching the static site
+### Launching the directory homepage
 
 ```bash
 wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
-npm install -g http-server
-
-cd workshop-config && sudo http-server -p 80 &
+cd pycon-zm/workshop-config
+npm install
+PORT=80 node app.js &
 disown
 ```
 

@@ -1,0 +1,22 @@
+{
+  "name": "workshop-config",
+  "version": "1.0.0",
+  "description": "This readme is solely for setting up the cloud PostGIS and Jupyter Notebooks for multiple workshop participants.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Nick Doiron <ndoiron@mapmeld.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "csurf": "^1.9.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "pug": "^2.0.3",
+    "read-only-pg": "^1.0.0"
+  }
+}

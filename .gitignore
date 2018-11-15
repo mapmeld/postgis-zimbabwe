@@ -1,3 +1,6 @@
 .DS_Store
 *.pyc
 password
+node_modules
+*.log
+package-lock.json
