@@ -83,12 +83,15 @@ Technically we should use JupyterHub. Maybe in the future.
 
 ### Launching the directory homepage
 
+You need a tool such as Apache or Nginx to create a TLS certificate
+and serve over HTTPS. Proxy to port 8000:
+
 ```bash
 wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 cd pycon-zm/workshop-config
 npm install
-PORT=80 node app.js &
+PORT=8000 node app.js &
 disown
 ```
 
